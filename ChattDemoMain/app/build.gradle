@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.chatt.demo"
+        minSdkVersion 14
+        targetSdkVersion 18
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+android.applicationVariants.all { variant ->
+    task("generate${variant.name.capitalize()}JavaDoc", type: Javadoc) {
+        description "Generates Javadoc for $variant.name."
+        source = variant.javaCompile.source
+        ext.androidJar = "${android.sdkDirectory}/platforms/${android.compileSdkVersion}/android.jar"
+        classpath = files(variant.javaCompile.classpath.files) + files(ext.androidJar)
+    }
+}
+
+
+dependencies {
+    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.google.firebase:firebase-database:9.0.0'
+    compile 'com.google.firebase:firebase-auth:9.0.0'
+    compile 'com.google.firebase:firebase-messaging:9.0.0'
+    compile 'com.rabbitmq:amqp-client:3.6.6'
+}
+
+
+apply plugin: 'com.google.gms.google-services'
