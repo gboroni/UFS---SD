@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -34,8 +35,6 @@ import java.util.logging.Logger;
 public class UserList extends CustomActivity
 {
 
-	/** Users database reference */
-	DatabaseReference database;
 	/** The Chat list. */
 	private ArrayList<ChatUser> uList;
 
@@ -50,8 +49,6 @@ public class UserList extends CustomActivity
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.user_list);
-		// Get reference to the Firebase database
-		database  = FirebaseDatabase.getInstance().getReference();
 
 		getActionBar().setDisplayHomeAsUpEnabled(false);
 
@@ -95,47 +92,38 @@ public class UserList extends CustomActivity
 	 */
 	private void loadUserList()
 	{
-		final ProgressDialog dia = ProgressDialog.show(this, null,
-				getString(R.string.alert_loading));
+//		final ProgressDialog dia = ProgressDialog.show(this, null,
+//				getString(R.string.alert_loading));
 
-        // Pull the users list once no sync required.
-        database.child("users").addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {dia.dismiss();
-                long size  = dataSnapshot.getChildrenCount();
-                if(size == 0) {
-					Toast.makeText(UserList.this,
-							R.string.msg_no_user_found,
-							Toast.LENGTH_SHORT).show();
-					return;
-				}
-                uList = new ArrayList<ChatUser>();
-                for(DataSnapshot ds : dataSnapshot.getChildren()) {
-                    ChatUser user = ds.getValue(ChatUser.class);
-                    Logger.getLogger(UserList.class.getName()).log(Level.ALL,user.getUsername());
-                    if(!user.getId().contentEquals(FirebaseAuth.getInstance().getCurrentUser().getUid()))
-                        uList.add(user);
-                }
-                ListView list = (ListView) findViewById(R.id.list);
-                list.setAdapter(new UserAdapter());
-                list.setOnItemClickListener(new OnItemClickListener() {
+//		Toast.makeText(UserList.this,
+//				R.string.msg_no_user_found,
+//				Toast.LENGTH_SHORT).show();
 
-                    @Override
-                    public void onItemClick(AdapterView<?> arg0,
-                                            View arg1, int pos, long arg3)
-                    {
-                        startActivity(new Intent(UserList.this,
-                                Chat.class).putExtra(
-                                Const.EXTRA_DATA,  uList.get(pos)));
-                    }
-                });
-            }
+		uList = new ArrayList<ChatUser>();
+//		for(DataSnapshot ds : dataSnapshot.getChildren()) {
+//			ChatUser user = ds.getValue(ChatUser.class);
+//			Logger.getLogger(UserList.class.getName()).log(Level.ALL,user.getUsername());
+//			if(!user.getId().contentEquals(FirebaseAuth.getInstance().getCurrentUser().getUid()))
+//				uList.add(user);
+//		}
 
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
+        uList.add(new ChatUser("id","Edgar","email",true, new ArrayList<String>()));
+		ListView list = (ListView) findViewById(R.id.list);
+        ArrayAdapter<ChatUser> adapter = new ArrayAdapter<ChatUser>(this,
+                android.R.layout.simple_list_item_1, uList);
+		list.setAdapter(adapter);
+		list.setOnItemClickListener(new OnItemClickListener() {
 
-            }
-        });
+			@Override
+			public void onItemClick(AdapterView<?> arg0,
+									View arg1, int pos, long arg3)
+			{
+				startActivity(new Intent(UserList.this,
+						Chat.class).putExtra(
+						Const.EXTRA_DATA,  uList.get(pos)));
+			}
+		});
+
 	}
 
 	/**
