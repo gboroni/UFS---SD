@@ -1,3 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="true"
+        jar="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7732a52b5b3af1220d27b6220ebb5806ac73a0dd">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_faf4173a96434a075a0f7b211d7da7562cbab600\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ad2dc7a25769ea8d13dcc4f2e08f35ff03c8a8b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\guilhermeboroni\.gradle\caches\modules-2\files-2.1\com.rabbitmq\amqp-client\3.6.6\6ee151677904052617a01971fdc37fff28ecb5ca\amqp-client-3.6.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ee151677904052617a01971fdc37fff28ecb5ca">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\10\amqp-client-3.6.6_9db93b1cb6162f28374a5d89f73ed239c2bfccfa\classes.dex" />
+    </item>
+
+</items>
