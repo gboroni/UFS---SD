@@ -83,16 +83,16 @@ public final class R {
         public static final int common_plus_signin_btn_text_light_pressed = 0x7f02002e;
     }
     public static final class id {
-        public static final int adjust_height = 0x7f090000;
-        public static final int adjust_width = 0x7f090001;
-        public static final int auto = 0x7f090006;
-        public static final int dark = 0x7f090007;
-        public static final int email = 0x7f090016;
-        public static final int icon_only = 0x7f090003;
-        public static final int light = 0x7f090008;
-        public static final int none = 0x7f090002;
-        public static final int standard = 0x7f090004;
-        public static final int wide = 0x7f090005;
+        public static final int adjust_height = 0x7f0a0000;
+        public static final int adjust_width = 0x7f0a0001;
+        public static final int auto = 0x7f0a0006;
+        public static final int dark = 0x7f0a0007;
+        public static final int email = 0x7f0a0018;
+        public static final int icon_only = 0x7f0a0003;
+        public static final int light = 0x7f0a0008;
+        public static final int none = 0x7f0a0002;
+        public static final int standard = 0x7f0a0004;
+        public static final int wide = 0x7f0a0005;
     }
     public static final class integer {
         public static final int google_play_services_version = 0x7f070000;

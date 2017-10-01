@@ -1,17 +1,24 @@
 package com.chatt.demo;
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -19,6 +26,7 @@ import android.widget.Toast;
 import com.chatt.demo.custom.CustomActivity;
 import com.chatt.demo.model.ChatUser;
 import com.chatt.demo.utils.Const;
+import com.chatt.demo.utils.CustomAdapter;
 import com.chatt.demo.utils.Singleton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -54,6 +62,8 @@ public class UserList extends CustomActivity
 	/** The user. */
 	public static ChatUser user;
 
+	public ArrayAdapter<ChatUser> adapter;
+
 	Thread subscribeThread;
 	Thread publishThread;
 
@@ -79,6 +89,13 @@ public class UserList extends CustomActivity
                 Log.i("CHAT RECEBIDO >>> ",ft.format(now) + ' ' + message + '\n');
             }
         };
+
+        user = new ChatUser();
+		user.setEmail(Singleton.getInstance().getUser());
+		user.setId(Singleton.getInstance().getUser());
+		user.setUsername(Singleton.getInstance().getUser());
+		user.setOnline(true);
+
         subscribe(incomingMessageHandler);
 
 	}
@@ -95,6 +112,27 @@ public class UserList extends CustomActivity
 
 	}
 
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.add, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		//noinspection SimplifiableIfStatement
+		if (id == R.id.action_settings) {
+			showAddUser();
+			return true;
+		}
+
+		return super.onOptionsItemSelected(item);
+	}
 	/* (non-Javadoc)
 	 * @see android.support.v4.app.FragmentActivity#onResume()
 	 */
@@ -106,6 +144,32 @@ public class UserList extends CustomActivity
 
 	}
 
+
+	public void showAddUser(){
+		AlertDialog.Builder builder = new AlertDialog.Builder(UserList.this)
+				.setTitle("Pesquisar Usuario")
+				.setMessage("Informe o nome do usuaro");
+		final FrameLayout frameView = new FrameLayout(UserList.this);
+		builder.setView(frameView);
+
+		final AlertDialog alertDialog = builder.create();
+		LayoutInflater inflater = alertDialog.getLayoutInflater();
+		View dialoglayout = inflater.inflate(R.layout.add, frameView);
+
+		Button b = (Button) dialoglayout.findViewById(R.id.confirm);
+		final EditText userName = (EditText) dialoglayout.findViewById(R.id.userName);
+		b.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				uList.add(new ChatUser("id",userName.getText().toString(),"email",true, new ArrayList<String>()));
+				adapter.notifyDataSetChanged();
+				alertDialog.dismiss();
+			}
+		});
+
+
+		alertDialog.show();
+	}
 	/**
 	 * Update user status.
 	 * 
@@ -137,10 +201,8 @@ public class UserList extends CustomActivity
 //				uList.add(user);
 //		}
 
-        uList.add(new ChatUser("id","Edgar","email",true, new ArrayList<String>()));
-		ListView list = (ListView) findViewById(R.id.list);
-        ArrayAdapter<ChatUser> adapter = new ArrayAdapter<ChatUser>(this,
-                android.R.layout.simple_list_item_1, uList);
+        ListView list = (ListView) findViewById(R.id.list);
+        adapter = new CustomAdapter(UserList.this,android.R.layout.simple_list_item_1,uList);
 		list.setAdapter(adapter);
 		list.setOnItemClickListener(new OnItemClickListener() {
 
@@ -153,6 +215,8 @@ public class UserList extends CustomActivity
 						Const.EXTRA_DATA,  uList.get(pos)));
 			}
 		});
+
+
 
 	}
 

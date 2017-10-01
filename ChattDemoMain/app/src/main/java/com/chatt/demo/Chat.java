@@ -105,7 +105,7 @@ public class Chat extends CustomActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        loadConversationList();
+
     }
 
     /* (non-Javadoc)
@@ -150,42 +150,17 @@ public class Chat extends CustomActivity {
 
         sendMessageRabbit(s.toString());
 
+        Conversation conversation = new Conversation();
+        conversation.setStatus(Conversation.STATUS_SENT);
+        conversation.setDate(new Date());
+        conversation.setMsg(txt.getText().toString());
+        conversation.setSender(Singleton.getInstance().getUser());
+        conversation.setReceiver(buddy.getUsername());
+
+        convList.add(conversation);
+
         adp.notifyDataSetChanged();
         txt.setText(null);
-    }
-
-    /**
-     * Load the conversation list from Parse server and save the date of last
-     * message that will be used to load only recent new messages
-     */
-    private void loadConversationList() {
-
-        FirebaseDatabase.getInstance().getReference("messages").addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                if(user != null) {
-                    for (DataSnapshot ds : dataSnapshot.getChildren()) {
-                        Conversation conversation = ds.getValue(Conversation.class);
-                        if (conversation.getReceiver().contentEquals(user.getUid()) || conversation.getSender().contentEquals(user.getUid())) {
-                            convList.add(conversation);
-                            if (lastMsgDate == null
-                                    || lastMsgDate.before(conversation.getDate()))
-                                lastMsgDate = conversation.getDate();
-
-                            adp.notifyDataSetChanged();
-
-                        }
-                    }
-                }
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-
     }
 
     /**
@@ -272,7 +247,7 @@ public class Chat extends CustomActivity {
      * Envia a mensagem lida para a fila de mensagens do destinatário.
      *
      */
-    public static void sendMessageRabbit(String text) throws IOException, TimeoutException {
+    public void sendMessageRabbit(String text) throws IOException, TimeoutException {
         Channel channel = Singleton.getInstance().getConnection().createChannel();
         // Protocolo da mensagem: grupo | usuário | conteúdo
 //        if (isGroup) {
@@ -281,10 +256,10 @@ public class Chat extends CustomActivity {
 //            // + msg).getBytes("UTF-8"));
 //            channel.basicPublish(sendTo, "", null, makeMessage(user, msg, sendTo));
 //        } else {
-            channel.queueDeclare("edgar", false, false, false, null);
+            channel.queueDeclare(buddy.getUsername(), false, false, false, null);
             // channel.basicPublish("", sendTo, null, ("" + SEPARATOR + user + SEPARATOR +
             // msg).getBytes("UTF-8"));
-            channel.basicPublish("", "edgar", null, makeMessage("guilherme", text,""));
+            channel.basicPublish("", buddy.getUsername(), null, makeMessage(Singleton.getInstance().getUser(), text,""));
 //        }
         channel.close();
     }

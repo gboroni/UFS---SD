@@ -12,6 +12,10 @@
         "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\user_list.xml"
     },
     {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/layout/add.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/layout/add.xml"
+    },
+    {
         "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat.xml",
         "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat.xml"
     },

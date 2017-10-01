@@ -40,19 +40,9 @@ public class Conversation
 
 	/**
 	 * Instantiates a new conversation.
-	 * 
-	 * @param msg
-	 *            the msg
-	 * @param date
-	 *            the date
-	 * @param sender
-	 *            the sender
-     * @param receiver
-     *            the receiver
-     * @param photoUrl
-     *            the photo url
-	 */
-	public Conversation(String msg, Date date, String sender, String receiver, String photoUrl) {
+	 *
+     */
+	public Conversation() {
         this.msg = msg;
 		this.date = date;
 		this.sender = sender;

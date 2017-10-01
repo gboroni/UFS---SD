@@ -36,10 +36,10 @@ public class Singleton {
     public Connection getConnection() throws IOException, TimeoutException {
         if (connection == null){
             ConnectionFactory factory = new ConnectionFactory();
-            factory.setHost("wombat.rmq.cloudamqp.com");
-            factory.setUsername("tradflan");
-            factory.setPassword("qfWbjO_c1Lu05JgpxraRsn4ouelMmfuW");
-            factory.setVirtualHost("tradflan");
+            factory.setHost("rhino.rmq.cloudamqp.com");
+            factory.setUsername("ygqnbuox");
+            factory.setPassword("fhT5SRBYpG700pSZ3NcoyVeEj8RdosAx");
+            factory.setVirtualHost("ygqnbuox");
             connection = factory.newConnection();
         }
         return connection;
