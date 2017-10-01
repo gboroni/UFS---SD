@@ -105,14 +105,17 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="firebase-iid-9.0.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-basement-9.0.0" level="project" />
+    <orderEntry type="library" exported="" name="protobuf-java-3.4.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-base-9.0.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-tasks-9.0.0" level="project" />
     <orderEntry type="library" exported="" name="firebase-database-connection-9.0.0" level="project" />
+    <orderEntry type="library" exported="" name="slf4j-simple-1.7.25" level="project" />
     <orderEntry type="library" exported="" name="firebase-auth-module-9.0.0" level="project" />
     <orderEntry type="library" exported="" name="firebase-database-9.0.0" level="project" />
     <orderEntry type="library" exported="" name="amqp-client-3.6.6" level="project" />
     <orderEntry type="library" exported="" name="firebase-analytics-impl-9.0.0" level="project" />
     <orderEntry type="library" exported="" name="firebase-auth-common-9.0.0" level="project" />
+    <orderEntry type="library" exported="" name="slf4j-api-1.7.25" level="project" />
     <orderEntry type="library" exported="" name="support-v4-23.0.0" level="project" />
     <orderEntry type="library" exported="" name="firebase-auth-9.0.0" level="project" />
     <orderEntry type="library" exported="" name="firebase-common-9.0.0" level="project" />

@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/libs/slf4j-api-1.7.25.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da76ca59f6a57ee3102f8f9bd9cee742973efa8a">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.25_e69b960ae70ede9e8b8120e8ab8b2b5eafd168c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/guilhermeboroni/.android/build-cache/2e79e8080aaba8d94e329733d399a024a5717365/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -63,6 +72,15 @@
         revision="25.0.0"
         sha1="5f0f6913a208a126269aaa68004ed0329a832c5b">
         <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_9e3a40989f9c49922ac32fbddf76afafed72336e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/libs/slf4j-simple-1.7.25.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8dacf9514f0c707cbbcdd6fd699e8940d42fb54e">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/slf4j-simple-1.7.25_8c0c5c8b158cdf0321c72efae653fd62b6b8bee2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -117,6 +135,15 @@
         revision="25.0.0"
         sha1="ef5c5c2afbd174d55cf1cfcac7d0346cbc4c1322">
         <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_371d85bcd536d205d344a7c7c8300a3000220739.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/libs/protobuf-java-3.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b32aba0cbe737a4ca953f71688725972e3ee927c">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/protobuf-java-3.4.0_b8e097b11d51145e0e8358e210ebd208b44ed7f3.jar" />
     </item>
     <item
         is-multidex="false"

@@ -4,7 +4,6 @@ import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.text.InputType;
 import android.text.format.DateUtils;
 import android.view.MenuItem;
@@ -20,19 +19,23 @@ import android.widget.TextView;
 import com.chatt.demo.custom.CustomActivity;
 import com.chatt.demo.model.ChatUser;
 import com.chatt.demo.model.Conversation;
+import com.chatt.demo.protobuf.MessageProtos;
 import com.chatt.demo.utils.Const;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
+import com.chatt.demo.utils.Singleton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.protobuf.ByteString;
+import com.rabbitmq.client.Channel;
 
+import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
+import java.util.concurrent.TimeoutException;
 
 
 /**
@@ -120,7 +123,13 @@ public class Chat extends CustomActivity {
     public void onClick(View v) {
         super.onClick(v);
         if (v.getId() == R.id.btnSend) {
-            sendMessage();
+            try {
+                sendMessage();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (TimeoutException e) {
+                e.printStackTrace();
+            }
         }
 
     }
@@ -130,7 +139,7 @@ public class Chat extends CustomActivity {
      * is empty otherwise it creates a Parse object for Chat message and send it
      * to Parse server.
      */
-    private void sendMessage() {
+    private void sendMessage() throws IOException, TimeoutException {
         if (txt.length() == 0)
             return;
 
@@ -139,43 +148,8 @@ public class Chat extends CustomActivity {
 
         String s = txt.getText().toString();
 
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        if(user != null) {
-            final Conversation conversation = new Conversation(s,
-                    Calendar.getInstance().getTime(),
-                    user.getUid(),
-                    buddy.getId(),
-                    "");
-            conversation.setStatus(Conversation.STATUS_SENDING);
-            convList.add(conversation);
-            final String key = FirebaseDatabase.getInstance()
-                    .getReference("messages")
-                    .push().getKey();
-            FirebaseDatabase.getInstance().getReference("messages").child(key)
-                    .setValue(conversation)
-                    .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                               @Override
-                                               public void onComplete(@NonNull Task<Void> task) {
-                                                   if (task.isSuccessful()) {
-                                                       convList.get(convList.indexOf(conversation)).setStatus(Conversation.STATUS_SENT);
-                                                   } else {
-                                                       convList.get(convList.indexOf(conversation)).setStatus(Conversation.STATUS_FAILED);
-                                                   }
-                                                   FirebaseDatabase.getInstance()
-                                                           .getReference("messages")
-                                                           .child(key).setValue(convList.get(convList.indexOf(conversation)))
-                                                           .addOnCompleteListener(new
-                                                                                          OnCompleteListener<Void>() {
-                                                                                              @Override
-                                                                                              public void onComplete(@NonNull Task<Void> task) {
-                                                                                                  adp.notifyDataSetChanged();
-                                                                                              }
-                                                                                          });
+        sendMessageRabbit(s.toString());
 
-                                               }
-                                           }
-                    );
-        }
         adp.notifyDataSetChanged();
         txt.setText(null);
     }
@@ -292,5 +266,73 @@ public class Chat extends CustomActivity {
             finish();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    /**
+     * Envia a mensagem lida para a fila de mensagens do destinatário.
+     *
+     */
+    public static void sendMessageRabbit(String text) throws IOException, TimeoutException {
+        Channel channel = Singleton.getInstance().getConnection().createChannel();
+        // Protocolo da mensagem: grupo | usuário | conteúdo
+//        if (isGroup) {
+//            channel.exchangeDeclare(sendTo, "fanout");
+//            // channel.basicPublish(sendTo, "", null, (sendTo + SEPARATOR + user + SEPARATOR
+//            // + msg).getBytes("UTF-8"));
+//            channel.basicPublish(sendTo, "", null, makeMessage(user, msg, sendTo));
+//        } else {
+            channel.queueDeclare("edgar", false, false, false, null);
+            // channel.basicPublish("", sendTo, null, ("" + SEPARATOR + user + SEPARATOR +
+            // msg).getBytes("UTF-8"));
+            channel.basicPublish("", "edgar", null, makeMessage("guilherme", text,""));
+//        }
+        channel.close();
+    }
+
+    /**
+     * Retorna os bytes da mensagem no formato protocol buffer.
+     *
+     * @param sender
+     *            Usuário que enviou a mensagem
+     * @param text
+     *            Conteúdo textual da mensagem
+     * @param group
+     *            Nome do grupo destinatário
+     * @return Mensagem serializada
+     */
+    private static byte[] makeMessage(String sender, String text, String group) {
+
+        MessageProtos.Message.Content.Builder data = MessageProtos.Message.Content.newBuilder().setData(ByteString.copyFromUtf8(text))
+                .setType(MessageProtos.Message.ContentType.TEXT);
+        MessageProtos.Message.Builder m = MessageProtos.Message.newBuilder().setSender(sender).setDate(getCurrentDate()).setTime(getCurrentTime())
+                .addContent(data);
+        if (!group.isEmpty()) {
+            m.setGroup(group);
+        }
+        return m.build().toByteArray();
+    }
+
+    /**
+     * Pega o dia atual
+     *
+     * @return strDate
+     */
+    public static String getCurrentDate() {
+        SimpleDateFormat sdfDate = new SimpleDateFormat("dd/MM/yyyy");
+        Date now = new Date();
+        String strDate = sdfDate.format(now);
+        return strDate;
+    }
+
+    /**
+     * Pega a Hora atual
+     *
+     * @return strTime
+     */
+    public static String getCurrentTime() {
+        SimpleDateFormat sdfDate = new SimpleDateFormat("HH:mm");
+        Date now = new Date();
+        String strTime = sdfDate.format(now);
+        return strTime;
     }
 }

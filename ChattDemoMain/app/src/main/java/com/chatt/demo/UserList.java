@@ -29,6 +29,9 @@ import com.google.firebase.database.ValueEventListener;
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
+import com.rabbitmq.client.Consumer;
+import com.rabbitmq.client.DefaultConsumer;
+import com.rabbitmq.client.Envelope;
 import com.rabbitmq.client.QueueingConsumer;
 
 import java.text.SimpleDateFormat;
@@ -217,21 +220,21 @@ public class UserList extends CustomActivity
 					try {
 						Channel channel = Singleton.getInstance().getChannel();
 						AMQP.Queue.DeclareOk q = channel.queueDeclare();
-						QueueingConsumer consumer = new QueueingConsumer(channel);
+						Consumer consumer = new DefaultConsumer(channel) {
+							@Override
+							public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties,
+													   byte[] body)  {
+								String msg = new String(body);
+								Log.i("<<<<<<<<<",msg);
+								Message msgH = handler.obtainMessage();
+								Bundle bundle = new Bundle();
+								bundle.putString("msg", msg);
+								msgH.setData(bundle);
+								handler.sendMessage(msgH);
+							}
+						};
 						channel.basicConsume(q.getQueue(), true, consumer);
 
-						while (true) {
-							QueueingConsumer.Delivery delivery = consumer.nextDelivery();
-							String message = new String(delivery.getBody());
-							Log.d("","[r] " + message);
-							Message msg = handler.obtainMessage();
-							Bundle bundle = new Bundle();
-							bundle.putString("msg", message);
-							msg.setData(bundle);
-							handler.sendMessage(msg);
-						}
-					} catch (InterruptedException e) {
-						break;
 					} catch (Exception e1) {
 						Log.d("", "Connection broken: " + e1.getClass().getName());
 						try {
