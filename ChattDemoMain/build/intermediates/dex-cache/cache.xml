@@ -2,31 +2,157 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="7732a52b5b3af1220d27b6220ebb5806ac73a0dd">
-        <dex dex="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_faf4173a96434a075a0f7b211d7da7562cbab600\classes.dex" />
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_c6aead1e30c2186ef3d07d639533bc60c4c49ed1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ad2dc7a25769ea8d13dcc4f2e08f35ff03c8a8b3\classes.dex" />
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0_af8d8820b815e6eafa8d45f767ab63b8aa7d6498.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\guilhermeboroni\.gradle\caches\modules-2\files-2.1\com.rabbitmq\amqp-client\3.6.6\6ee151677904052617a01971fdc37fff28ecb5ca\amqp-client-3.6.6.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/c767477ee7055fcff16ada68dd1fd0e21c50aea1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="24536a7b97926a9c155c88425da6875adeb11b51">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_9f30cbbac00f95ffd01f03e0a3da87a78c40e4a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/2e79e8080aaba8d94e329733d399a024a5717365/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_0f33c5f997eb1a971433ead5fe6aeebbea7bacde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/1f1556c67992ab609b0c6ea14a8f281b02ddd037/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="005786793d72c6deacbbbfd38177ed58e1aa6653">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_b709c3eb92a6f3db4e59e5c0bc647f67839e2774.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/3.6.6/6ee151677904052617a01971fdc37fff28ecb5ca/amqp-client-3.6.6.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="6ee151677904052617a01971fdc37fff28ecb5ca">
-        <dex dex="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\10\amqp-client-3.6.6_9db93b1cb6162f28374a5d89f73ed239c2bfccfa\classes.dex" />
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/amqp-client-3.6.6_c7c5abfd4e9626e92d955a559d8ae5bc7338a5bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/1325ca640acffed78349ac2bd161b4e10a92960d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f0f6913a208a126269aaa68004ed0329a832c5b">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_9e3a40989f9c49922ac32fbddf76afafed72336e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/ce1517d96eb7d2e9196bfbfd567ac20e3d8b8e8f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_6d31e23a59d6f5e50c6d79698e9d83ba4d34b8df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/8dbcd33900b9609fe7045648508ec50c4aad34dd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_b2a6721a5fd61288fa151b8e63d6c0b18ee08d2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/8875064d38728c596c1c3772a709e74c663b2ac6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_3da93245add0b96ff60e0df2b9a2e7ae7514b901.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/4fb487bb5827d84668ffca91f52e5d1acab1e9ce/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_11cc3ae1a62e148b5cfb304e39b62cdad7a79c89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/413b311d249f7d23d72b01261cae5f6b3ec8dc77/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_a01fa3b22b1ddcc467752a34687edd85123f3cae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/c0ea8326f4d19c2e18ddd28da13724fc69a47491/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ef5c5c2afbd174d55cf1cfcac7d0346cbc4c1322">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_371d85bcd536d205d344a7c7c8300a3000220739.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/f97d13f9f2b4e943f5d5567985dc6a0a69a8d767/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70ddab48594608953b20164b82f1f890a9a8174a">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_d7dd02ae1827b0b01f7681bced7d9729b28d8575.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/8a7d19cb0b5990f4a2045aab1cad8c6caf0c805e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="32a5a566ae197603d0bed3e6d1d275f6a771564e">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_e1300a5acb3866645f002ba84b384dcde96ef781.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/b69114020aa6d03e9bba178cc84608c4cc308d79/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/classes_26506741f06eddcc932a5dcaa8f7a0a00c05c2f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/guilhermeboroni/.android/build-cache/413b311d249f7d23d72b01261cae5f6b3ec8dc77/output/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_0ec3bf251d4ee8ed5437338e8a6d4c4b2893b925.jar" />
     </item>
 
 </items>

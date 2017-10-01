@@ -31,6 +31,7 @@ public class Singleton {
      */
     private Channel channel;
 
+    private String user;
 
     public Connection getConnection() throws IOException, TimeoutException {
         if (connection == null){
@@ -51,11 +52,20 @@ public class Singleton {
     public Channel getChannel() throws IOException, TimeoutException {
         if (channel == null){
             channel = getConnection().createChannel();
+            channel.queueDeclare(user, false, false, false, null);
         }
         return channel;
     }
 
     public void setChannel(Channel channel) {
         this.channel = channel;
+    }
+
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
     }
 }

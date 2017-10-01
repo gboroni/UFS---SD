@@ -3,6 +3,9 @@ package com.chatt.demo;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -16,14 +19,21 @@ import android.widget.Toast;
 import com.chatt.demo.custom.CustomActivity;
 import com.chatt.demo.model.ChatUser;
 import com.chatt.demo.utils.Const;
+import com.chatt.demo.utils.Singleton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.rabbitmq.client.AMQP;
+import com.rabbitmq.client.Channel;
+import com.rabbitmq.client.Connection;
+import com.rabbitmq.client.QueueingConsumer;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -41,6 +51,9 @@ public class UserList extends CustomActivity
 	/** The user. */
 	public static ChatUser user;
 
+	Thread subscribeThread;
+	Thread publishThread;
+
 	/* (non-Javadoc)
 	 * @see android.support.v4.app.FragmentActivity#onCreate(android.os.Bundle)
 	 */
@@ -53,6 +66,18 @@ public class UserList extends CustomActivity
 		getActionBar().setDisplayHomeAsUpEnabled(false);
 
 		updateUserStatus(true);
+
+        final Handler incomingMessageHandler = new Handler() {
+            @Override
+            public void handleMessage(Message msg) {
+                String message = msg.getData().getString("msg");
+                Date now = new Date();
+                SimpleDateFormat ft = new SimpleDateFormat ("hh:mm:ss");
+                Log.i("CHAT RECEBIDO >>> ",ft.format(now) + ' ' + message + '\n');
+            }
+        };
+        subscribe(incomingMessageHandler);
+
 	}
 
 	/* (non-Javadoc)
@@ -63,6 +88,8 @@ public class UserList extends CustomActivity
 	{
 		super.onDestroy();
 		updateUserStatus(false);
+        subscribeThread.interrupt();
+
 	}
 
 	/* (non-Javadoc)
@@ -180,4 +207,43 @@ public class UserList extends CustomActivity
 		}
 
 	}
+
+	void subscribe(final Handler handler)
+	{
+		subscribeThread = new Thread(new Runnable() {
+			@Override
+			public void run() {
+				while(true) {
+					try {
+						Channel channel = Singleton.getInstance().getChannel();
+						AMQP.Queue.DeclareOk q = channel.queueDeclare();
+						QueueingConsumer consumer = new QueueingConsumer(channel);
+						channel.basicConsume(q.getQueue(), true, consumer);
+
+						while (true) {
+							QueueingConsumer.Delivery delivery = consumer.nextDelivery();
+							String message = new String(delivery.getBody());
+							Log.d("","[r] " + message);
+							Message msg = handler.obtainMessage();
+							Bundle bundle = new Bundle();
+							bundle.putString("msg", message);
+							msg.setData(bundle);
+							handler.sendMessage(msg);
+						}
+					} catch (InterruptedException e) {
+						break;
+					} catch (Exception e1) {
+						Log.d("", "Connection broken: " + e1.getClass().getName());
+						try {
+							Thread.sleep(5000); //sleep and then try again
+						} catch (InterruptedException e) {
+							break;
+						}
+					}
+				}
+			}
+		});
+		subscribeThread.start();
+	}
+
 }
