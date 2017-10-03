@@ -2,9 +2,9 @@ package com.chatt.demo;
 
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.text.InputType;
 import android.text.format.DateUtils;
 import android.view.MenuItem;
@@ -20,19 +20,15 @@ import android.widget.TextView;
 import com.chatt.demo.custom.CustomActivity;
 import com.chatt.demo.model.ChatUser;
 import com.chatt.demo.model.Conversation;
+import com.chatt.demo.requests.SendMessageAsync;
 import com.chatt.demo.utils.Const;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
+import com.chatt.demo.utils.Singleton;
 
+
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
+import java.util.concurrent.TimeoutException;
 
 
 /**
@@ -66,6 +62,8 @@ public class Chat extends CustomActivity {
      * The date of last message in conversation.
      */
     private Date lastMsgDate;
+
+    private ProgressDialog loginProgressDlg;
 
     /* (non-Javadoc)
      * @see android.support.v4.app.FragmentActivity#onCreate(android.os.Bundle)
@@ -102,7 +100,7 @@ public class Chat extends CustomActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        loadConversationList();
+
     }
 
     /* (non-Javadoc)
@@ -120,7 +118,13 @@ public class Chat extends CustomActivity {
     public void onClick(View v) {
         super.onClick(v);
         if (v.getId() == R.id.btnSend) {
-            sendMessage();
+            try {
+                sendMessage();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (TimeoutException e) {
+                e.printStackTrace();
+            }
         }
 
     }
@@ -130,7 +134,7 @@ public class Chat extends CustomActivity {
      * is empty otherwise it creates a Parse object for Chat message and send it
      * to Parse server.
      */
-    private void sendMessage() {
+    private void sendMessage() throws IOException, TimeoutException {
         if (txt.length() == 0)
             return;
 
@@ -139,79 +143,10 @@ public class Chat extends CustomActivity {
 
         String s = txt.getText().toString();
 
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        if(user != null) {
-            final Conversation conversation = new Conversation(s,
-                    Calendar.getInstance().getTime(),
-                    user.getUid(),
-                    buddy.getId(),
-                    "");
-            conversation.setStatus(Conversation.STATUS_SENDING);
-            convList.add(conversation);
-            final String key = FirebaseDatabase.getInstance()
-                    .getReference("messages")
-                    .push().getKey();
-            FirebaseDatabase.getInstance().getReference("messages").child(key)
-                    .setValue(conversation)
-                    .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                               @Override
-                                               public void onComplete(@NonNull Task<Void> task) {
-                                                   if (task.isSuccessful()) {
-                                                       convList.get(convList.indexOf(conversation)).setStatus(Conversation.STATUS_SENT);
-                                                   } else {
-                                                       convList.get(convList.indexOf(conversation)).setStatus(Conversation.STATUS_FAILED);
-                                                   }
-                                                   FirebaseDatabase.getInstance()
-                                                           .getReference("messages")
-                                                           .child(key).setValue(convList.get(convList.indexOf(conversation)))
-                                                           .addOnCompleteListener(new
-                                                                                          OnCompleteListener<Void>() {
-                                                                                              @Override
-                                                                                              public void onComplete(@NonNull Task<Void> task) {
-                                                                                                  adp.notifyDataSetChanged();
-                                                                                              }
-                                                                                          });
+        sendMessageRabbit(s.toString());
 
-                                               }
-                                           }
-                    );
-        }
         adp.notifyDataSetChanged();
         txt.setText(null);
-    }
-
-    /**
-     * Load the conversation list from Parse server and save the date of last
-     * message that will be used to load only recent new messages
-     */
-    private void loadConversationList() {
-
-        FirebaseDatabase.getInstance().getReference("messages").addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                if(user != null) {
-                    for (DataSnapshot ds : dataSnapshot.getChildren()) {
-                        Conversation conversation = ds.getValue(Conversation.class);
-                        if (conversation.getReceiver().contentEquals(user.getUid()) || conversation.getSender().contentEquals(user.getUid())) {
-                            convList.add(conversation);
-                            if (lastMsgDate == null
-                                    || lastMsgDate.before(conversation.getDate()))
-                                lastMsgDate = conversation.getDate();
-
-                            adp.notifyDataSetChanged();
-
-                        }
-                    }
-                }
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-
     }
 
     /**
@@ -293,4 +228,29 @@ public class Chat extends CustomActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    /**
+     * Envia a mensagem lida para a fila de mensagens do destinatário.
+     *
+     */
+    public void sendMessageRabbit(String text) throws IOException, TimeoutException {
+        loginProgressDlg = ProgressDialog.show(this, null,
+                getString(R.string.alert_wait));
+        new SendMessageAsync(loginProgressDlg,Chat.this, Chat.this).execute(buddy.getUsername(),text);
+    }
+
+    public void updateList(String text){
+        Conversation conversation = new Conversation();
+        conversation.setStatus(Conversation.STATUS_SENT);
+        conversation.setDate(new Date());
+        conversation.setMsg(text);
+        conversation.setSender(Singleton.getInstance().getUser());
+        conversation.setReceiver(buddy.getUsername());
+
+        convList.add(conversation);
+
+        adp.notifyDataSetChanged();
+    }
+
+
 }

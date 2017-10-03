@@ -11,6 +11,7 @@ import android.widget.Toast;
 import com.chatt.demo.custom.CustomActivity;
 import com.chatt.demo.model.ChatUser;
 import com.chatt.demo.requests.createUserAsync;
+import com.chatt.demo.utils.Singleton;
 import com.chatt.demo.utils.Utils;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -34,9 +35,6 @@ public class Login extends CustomActivity
 	/** The username edittext. */
 	private EditText user;
 
-	/** The password edittext. */
-	private EditText pwd;
-
     /** Login progress dialog */
     private ProgressDialog loginProgressDlg;
 
@@ -53,7 +51,6 @@ public class Login extends CustomActivity
 		setTouchNClick(R.id.btnReg);
 
 		user = (EditText) findViewById(R.id.user);
-		pwd = (EditText) findViewById(R.id.pwd);
 
 	}
 
@@ -72,8 +69,7 @@ public class Login extends CustomActivity
 		{
 			// Extract form fields
 			String user = this.user.getText().toString();
-			String password = pwd.getText().toString();
-			if (user.length() == 0 || password.length() == 0)
+			if (user.length() == 0 )
 			{
 				Utils.showDialog(this, R.string.err_fields_empty);
 				return;
@@ -81,6 +77,8 @@ public class Login extends CustomActivity
 
             loginProgressDlg = ProgressDialog.show(this, null,
                     getString(R.string.alert_wait));
+
+			Singleton.getInstance().setUser(user);
 			new createUserAsync(loginProgressDlg,Login.this).execute(user);
 
 		}

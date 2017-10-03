@@ -186,43 +186,50 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int user_chat2=0x7f02003e;
     }
     public static final class id {
-        public static final int adjust_height=0x7f090000;
-        public static final int adjust_width=0x7f090001;
-        public static final int auto=0x7f090006;
-        public static final int btnLogin=0x7f090015;
-        public static final int btnReg=0x7f090016;
-        public static final int btnSend=0x7f09000b;
-        public static final int dark=0x7f090007;
-        public static final int displayName=0x7f090017;
-        public static final int email=0x7f090018;
-        public static final int icon_only=0x7f090003;
-        public static final int imageView1=0x7f090011;
-        public static final int lbl1=0x7f09000e;
-        public static final int lbl2=0x7f09000f;
-        public static final int lbl3=0x7f090010;
-        public static final int light=0x7f090008;
-        public static final int list=0x7f090009;
-        public static final int llaa=0x7f09000c;
-        public static final int main=0x7f090014;
-        public static final int none=0x7f090002;
-        public static final int pwd=0x7f090013;
-        public static final int standard=0x7f090004;
-        public static final int txt=0x7f09000a;
-        public static final int user=0x7f090012;
-        public static final int v1=0x7f09000d;
-        public static final int wide=0x7f090005;
+        public static final int action_settings=0x7f0a001b;
+        public static final int adjust_height=0x7f0a0000;
+        public static final int adjust_width=0x7f0a0001;
+        public static final int auto=0x7f0a0006;
+        public static final int btnLogin=0x7f0a0016;
+        public static final int btnReg=0x7f0a001a;
+        public static final int btnSend=0x7f0a000d;
+        public static final int confirm=0x7f0a000a;
+        public static final int dark=0x7f0a0007;
+        public static final int displayName=0x7f0a0017;
+        public static final int email=0x7f0a0018;
+        public static final int icon_only=0x7f0a0003;
+        public static final int imageView1=0x7f0a0013;
+        public static final int lbl1=0x7f0a0010;
+        public static final int lbl2=0x7f0a0011;
+        public static final int lbl3=0x7f0a0012;
+        public static final int light=0x7f0a0008;
+        public static final int list=0x7f0a000b;
+        public static final int llaa=0x7f0a000e;
+        public static final int main=0x7f0a0015;
+        public static final int none=0x7f0a0002;
+        public static final int pwd=0x7f0a0019;
+        public static final int standard=0x7f0a0004;
+        public static final int txt=0x7f0a000c;
+        public static final int user=0x7f0a0014;
+        public static final int userName=0x7f0a0009;
+        public static final int v1=0x7f0a000f;
+        public static final int wide=0x7f0a0005;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f070000;
     }
     public static final class layout {
-        public static final int chat=0x7f030000;
-        public static final int chat_item=0x7f030001;
-        public static final int chat_item_rcv=0x7f030002;
-        public static final int chat_item_sent=0x7f030003;
-        public static final int login=0x7f030004;
-        public static final int register=0x7f030005;
-        public static final int user_list=0x7f030006;
+        public static final int add=0x7f030000;
+        public static final int chat=0x7f030001;
+        public static final int chat_item=0x7f030002;
+        public static final int chat_item_rcv=0x7f030003;
+        public static final int chat_item_sent=0x7f030004;
+        public static final int login=0x7f030005;
+        public static final int register=0x7f030006;
+        public static final int user_list=0x7f030007;
+    }
+    public static final class menu {
+        public static final int add=0x7f090000;
     }
     public static final class string {
         public static final int alert_loading=0x7f04001f;

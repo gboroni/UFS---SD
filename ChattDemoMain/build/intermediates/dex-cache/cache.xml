@@ -3,6 +3,24 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\libs\slf4j-simple-1.7.25.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8dacf9514f0c707cbbcdd6fd699e8940d42fb54e">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\2\slf4j-simple-1.7.25_a376db754b5ce591ccfd735fa62a771e5af33c3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\libs\slf4j-api-1.7.25.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da76ca59f6a57ee3102f8f9bd9cee742973efa8a">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\2\slf4j-api-1.7.25_214e63a6bed5891e6dd611174b57fc2842259d6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -21,12 +39,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\guilhermeboroni\.gradle\caches\modules-2\files-2.1\com.rabbitmq\amqp-client\3.6.6\6ee151677904052617a01971fdc37fff28ecb5ca\amqp-client-3.6.6.jar"
+        jar="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\libs\protobuf-java-3.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6ee151677904052617a01971fdc37fff28ecb5ca">
-        <dex dex="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\10\amqp-client-3.6.6_9db93b1cb6162f28374a5d89f73ed239c2bfccfa\classes.dex" />
+        sha1="b32aba0cbe737a4ca953f71688725972e3ee927c">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\2\protobuf-java-3.4.0_8820baeb84bfcb7ded38838190b0e25e851cf728\classes.dex" />
     </item>
 
 </items>
