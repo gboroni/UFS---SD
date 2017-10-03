@@ -82,6 +82,5 @@ public class Login extends CustomActivity
 		super.onActivityResult(requestCode, resultCode, data);
 		if (requestCode == 10 && resultCode == RESULT_OK)
 			finish();
-
 	}
 }

@@ -69,6 +69,9 @@ public class UserList extends CustomActivity
 		getActionBar().setDisplayHomeAsUpEnabled(false);
 
 		updateUserStatus(true);
+        user = new ChatUser();
+        user.setId(Singleton.getInstance().getUser());
+        user.setEmail(Singleton.getInstance().getUser());;
 
 		final Handler incomingMessageHandler = new Handler() {
 			@Override
@@ -283,6 +286,10 @@ void subscribe(final Handler handler) throws IOException, TimeoutException {
 			if (fromGroup.equals("")) {
 				// Exibe a mensagem direta
 				System.out.println("");
+                Chat conversaAtual = Singleton.getInstance().conversaAtual;
+                if (conversaAtual != null && conversaAtual.buddy.getUsername().equals(fromUser)){
+                    conversaAtual.updateListReceived(msg);
+                }
 				System.out.println("(" + date + " Ã s " + time + ") " + fromUser + " diz: " + msg);
 			} else {
 				// Ã‰ uma mensagem de um grupo

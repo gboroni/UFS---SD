@@ -56,7 +56,7 @@ public class Chat extends CustomActivity {
     /**
      * The user name of buddy.
      */
-    private ChatUser buddy;
+    public ChatUser buddy;
 
     /**
      * The date of last message in conversation.
@@ -73,6 +73,7 @@ public class Chat extends CustomActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.chat);
 
+        Singleton.getInstance().conversaAtual = this;
         convList = new ArrayList<Conversation>();
         ListView list = (ListView) findViewById(R.id.list);
         adp = new ChatAdapter();
@@ -236,7 +237,7 @@ public class Chat extends CustomActivity {
     public void sendMessageRabbit(String text) throws IOException, TimeoutException {
         loginProgressDlg = ProgressDialog.show(this, null,
                 getString(R.string.alert_wait));
-        new SendMessageAsync(loginProgressDlg,Chat.this, Chat.this).execute(buddy.getUsername(),text);
+        new SendMessageAsync(loginProgressDlg,Chat.this, this).execute(buddy.getUsername(),text);
     }
 
     public void updateList(String text){
@@ -252,5 +253,25 @@ public class Chat extends CustomActivity {
         adp.notifyDataSetChanged();
     }
 
+    public void updateListReceived(String text){
+        Conversation conversation = new Conversation();
+        conversation.setStatus(Conversation.STATUS_SENT);
+        conversation.setDate(new Date());
+        conversation.setMsg(text);
+        conversation.setSender(buddy.getUsername());
+        conversation.setReceiver(Singleton.getInstance().getUser());
+
+        convList.add(conversation);
+
+        adp.notifyDataSetChanged();
+    }
+
+    @Override
+    protected void onDestroy()
+    {
+        super.onDestroy();
+       Singleton.getInstance().conversaAtual = null;
+
+    }
 
 }

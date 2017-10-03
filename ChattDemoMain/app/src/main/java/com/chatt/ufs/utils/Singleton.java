@@ -1,5 +1,6 @@
 package com.chatt.ufs.utils;
 
+import com.chatt.ufs.Chat;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
@@ -32,7 +33,9 @@ public class Singleton {
 
     private String user;
 
-    private boolean recebendoMsg;
+    private boolean recebendoMsg = false;
+
+    public Chat conversaAtual;
 
     public Connection getConnection() throws IOException, TimeoutException {
         if (connection == null){
@@ -87,5 +90,7 @@ public class Singleton {
     public void setRecebendoMsg(boolean recebendoMsg) {
         this.recebendoMsg = recebendoMsg;
     }
+
+
 }
 

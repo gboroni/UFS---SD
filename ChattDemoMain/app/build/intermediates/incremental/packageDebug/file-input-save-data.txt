@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Oct 03 11:37:03 GMT-03:00 2017
+#Tue Oct 03 12:09:48 GMT-03:00 2017
 76.base=C\:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\build\\intermediates\\res\\resources-debug.ap_
 5.base=C\:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\build\\intermediates\\res\\resources-debug.ap_
 91.file=C\:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png
