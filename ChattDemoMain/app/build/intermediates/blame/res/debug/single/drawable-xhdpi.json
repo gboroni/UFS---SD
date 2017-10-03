@@ -1,21 +1,35 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\editext_bg_gray.png",
         "source": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\editext_bg_gray.png"
     },
     {
         "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_chat1.png",
         "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\user_chat1.png"
+=======
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_chat1.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\user_chat1.png"
     },
     {
-        "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\arrow.png",
-        "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\arrow.png"
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_online.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/ic_online.png"
     },
     {
-        "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_offline.png",
-        "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_offline.png"
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_mail_white_48dp.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/ic_mail_white_48dp.png"
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
     },
     {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\arrow.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\arrow.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_offline.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_offline.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\editext_bg_gray.png",
         "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\editext_bg_gray.png"
     },
@@ -90,24 +104,50 @@
     {
         "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon.png",
         "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\icon.png"
+=======
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_send.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/ic_send.png"
     },
     {
-        "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_send.png",
-        "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_send.png"
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/chat_bubble_gray.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/chat_bubble_gray.png"
     },
     {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_email.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_email.png"
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\editext_bg_gray.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\editext_bg_gray.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_chat2.png",
         "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\user_chat2.png"
     },
     {
         "merged": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_chat1.png",
         "source": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\user_chat1.png"
+=======
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/icon.png"
     },
     {
-        "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_compose.png",
-        "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_compose.png"
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\back_arrow.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\back_arrow.png"
     },
     {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_offline.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/ic_offline.png"
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_bubble_green.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\chat_bubble_green.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_bubble_green.png",
         "source": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\chat_bubble_green.png"
     },
@@ -166,12 +206,21 @@
     {
         "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\actionbar_bg.png",
         "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\actionbar_bg.png"
+=======
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/arrow.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/arrow.png"
     },
     {
-        "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_bubble_gray.png",
-        "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\chat_bubble_gray.png"
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_bubble_gray.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\chat_bubble_gray.png"
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
     },
     {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\actionbar_bg.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\actionbar_bg.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_online.png",
         "source": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_online.png"
     },
@@ -234,12 +283,25 @@
     {
         "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
         "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+=======
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/green_btn.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/green_btn.png"
     },
     {
-        "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_mail_white_48dp.png",
-        "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_mail_white_48dp.png"
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/editext_bg_gray.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/editext_bg_gray.png"
     },
     {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\edittext_bg.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\edittext_bg.png"
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/user_chat2.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/user_chat2.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_login.png",
         "source": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\logo_login.png"
     },
@@ -250,5 +312,93 @@
     {
         "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_online.png",
         "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_online.png"
+=======
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_login.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\logo_login.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/chat_bubble_green.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/chat_bubble_green.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\icon.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_send.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_send.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_pwd.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_pwd.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_chat2.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\user_chat2.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_compose.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_compose.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_email.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/ic_email.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_compose.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/ic_compose.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/actionbar_bg.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/actionbar_bg.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_username.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/ic_username.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/back_arrow.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/back_arrow.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_username.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_username.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\green_btn.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\green_btn.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_mail_white_48dp.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_mail_white_48dp.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/user_chat1.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/user_chat1.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/edittext_bg.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/edittext_bg.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/logo_login.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/logo_login.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_online.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\drawable-xhdpi\\ic_online.png"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_pwd.png",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/drawable-xhdpi/ic_pwd.png"
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
     }
 ]

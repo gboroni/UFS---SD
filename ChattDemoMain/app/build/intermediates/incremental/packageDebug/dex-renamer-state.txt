@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Mon Oct 02 17:16:56 GMT-03:00 2017
 base.0=C\:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_faf4173a96434a075a0f7b211d7da7562cbab600
 renamed.1=classes.dex
@@ -5,3 +6,9 @@ renamed.0=classes2.dex
 file.1=C\:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ad2dc7a25769ea8d13dcc4f2e08f35ff03c8a8b3\\classes.dex
 base.1=C\:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ad2dc7a25769ea8d13dcc4f2e08f35ff03c8a8b3
 file.0=C\:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_faf4173a96434a075a0f7b211d7da7562cbab600\\classes.dex
+=======
+#Sun Oct 01 16:07:37 BRT 2017
+base.0=/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e

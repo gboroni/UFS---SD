@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat.xml",
         "source": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat.xml"
     },
@@ -14,12 +15,37 @@
     {
         "merged": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_sent.xml",
         "source": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat_item_sent.xml"
+=======
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/layout/chat.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/layout/chat.xml"
     },
     {
-        "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
-        "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\register.xml"
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\register.xml"
     },
     {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_list.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\user_list.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/layout/add.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/layout/add.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/layout/login.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/layout/login.xml"
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_sent.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat_item_sent.xml"
+    },
+    {
+<<<<<<< HEAD
         "merged": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat.xml",
         "source": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat.xml"
     },
@@ -46,12 +72,37 @@
     {
         "merged": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat.xml",
         "source": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat.xml"
+=======
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\login.xml"
     },
     {
-        "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_rcv.xml",
-        "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat_item_rcv.xml"
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat_item.xml"
     },
     {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_rcv.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat_item_rcv.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/layout/chat_item_sent.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/layout/chat_item_sent.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/layout/chat_item.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/layout/chat_item.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat.xml"
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_sent.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat_item_sent.xml"
+    },
+    {
+<<<<<<< HEAD
         "merged": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_list.xml",
         "source": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\user_list.xml"
     },
@@ -66,12 +117,17 @@
     {
         "merged": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_rcv.xml",
         "source": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat_item_rcv.xml"
+=======
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\login.xml"
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
     },
     {
-        "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item.xml",
-        "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat_item.xml"
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat_item.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item.xml",
         "source": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat_item.xml"
     },
@@ -146,5 +202,57 @@
     {
         "merged": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
         "source": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\register.xml"
+=======
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/layout/chat_item_rcv.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/layout/chat_item_rcv.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_rcv.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat_item_rcv.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\src\\main\\res\\layout\\register.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_list.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\src\\main\\res\\layout\\user_list.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat_item.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_sent.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat_item_sent.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/layout/register.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/layout/register.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_list.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\user_list.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_rcv.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat_item_rcv.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\layout\\register.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\src\\main\\res\\layout\\chat.xml"
+    },
+    {
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/layout/user_list.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/layout/user_list.xml"
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
     }
 ]

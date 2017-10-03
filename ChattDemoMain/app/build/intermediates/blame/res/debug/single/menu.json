@@ -1,10 +1,15 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\menu\\add.xml",
         "source": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\src\\main\\res\\menu\\add.xml"
     },
     {
         "merged": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\menu\\add.xml",
         "source": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\menu\\add.xml"
+=======
+        "merged": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/res/merged/debug/menu/add.xml",
+        "source": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/src/main/res/menu/add.xml"
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
     }
 ]

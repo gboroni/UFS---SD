@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
         "map": [
             {
@@ -1189,6 +1190,9 @@
     },
     {
         "outputFile": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+=======
+        "outputFile": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\values-pt-rBR\\values-pt-rBR.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
         "map": [
             {
                 "to": {
@@ -1199,7 +1203,11 @@
                     "endOffset": 377
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1218,7 +1226,11 @@
                     "endOffset": 507
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1237,7 +1249,11 @@
                     "endOffset": 687
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1256,7 +1272,11 @@
                     "endOffset": 816
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1275,7 +1295,11 @@
                     "endOffset": 949
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1294,7 +1318,11 @@
                     "endOffset": 1174
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1313,7 +1341,11 @@
                     "endOffset": 1396
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1332,7 +1364,11 @@
                     "endOffset": 1528
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1351,7 +1387,11 @@
                     "endOffset": 1703
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1370,7 +1410,11 @@
                     "endOffset": 1826
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1389,7 +1433,11 @@
                     "endOffset": 2004
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1408,7 +1456,11 @@
                     "endOffset": 2123
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1427,7 +1479,11 @@
                     "endOffset": 2257
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1446,7 +1502,11 @@
                     "endOffset": 2430
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1465,7 +1525,11 @@
                     "endOffset": 2580
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1484,7 +1548,11 @@
                     "endOffset": 2757
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1503,7 +1571,11 @@
                     "endOffset": 2884
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1522,7 +1594,11 @@
                     "endOffset": 3054
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1541,7 +1617,11 @@
                     "endOffset": 3176
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1560,7 +1640,11 @@
                     "endOffset": 3445
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\8875064d38728c596c1c3772a709e74c663b2ac6\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1579,7 +1663,11 @@
                     "endOffset": 3714
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -1598,7 +1686,11 @@
                     "endOffset": 3831
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -1617,7 +1709,11 @@
                     "endOffset": 3941
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -1636,7 +1732,11 @@
                     "endOffset": 4136
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -1655,7 +1755,11 @@
                     "endOffset": 4268
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -1674,7 +1778,11 @@
                     "endOffset": 4484
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -1693,7 +1801,11 @@
                     "endOffset": 4621
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -1712,7 +1824,11 @@
                     "endOffset": 4808
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -1731,7 +1847,11 @@
                     "endOffset": 4907
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -1750,7 +1870,11 @@
                     "endOffset": 5003
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -1769,7 +1893,11 @@
                     "endOffset": 5116
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\.android\\build-cache\\cd8f43dec0f4af8455c4a4b75440e24bb252bb27\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -1782,7 +1910,11 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\values-pt-rBR\\values-pt-rBR.xml",
+=======
+        "outputFile": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\values-pt-rBR\\values-pt-rBR.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
         "map": [
             {
                 "to": {
@@ -1793,7 +1925,11 @@
                     "endOffset": 377
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1812,7 +1948,11 @@
                     "endOffset": 507
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1831,7 +1971,11 @@
                     "endOffset": 687
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1850,7 +1994,11 @@
                     "endOffset": 816
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1869,7 +2017,11 @@
                     "endOffset": 949
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1888,7 +2040,11 @@
                     "endOffset": 1174
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1907,7 +2063,11 @@
                     "endOffset": 1396
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1926,7 +2086,11 @@
                     "endOffset": 1528
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1945,7 +2109,11 @@
                     "endOffset": 1703
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1964,7 +2132,11 @@
                     "endOffset": 1826
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1983,7 +2155,11 @@
                     "endOffset": 2004
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -2002,7 +2178,11 @@
                     "endOffset": 2123
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -2021,7 +2201,11 @@
                     "endOffset": 2257
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -2040,7 +2224,11 @@
                     "endOffset": 2430
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -2059,7 +2247,11 @@
                     "endOffset": 2580
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -2078,7 +2270,11 @@
                     "endOffset": 2757
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -2097,7 +2293,11 @@
                     "endOffset": 2884
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -2116,7 +2316,11 @@
                     "endOffset": 3054
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -2135,7 +2339,11 @@
                     "endOffset": 3176
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -2154,7 +2362,11 @@
                     "endOffset": 3445
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2173,7 +2385,11 @@
                     "endOffset": 3714
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -2192,7 +2408,11 @@
                     "endOffset": 3831
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -2211,7 +2431,11 @@
                     "endOffset": 3941
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -2230,7 +2454,11 @@
                     "endOffset": 4136
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -2249,7 +2477,11 @@
                     "endOffset": 4268
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -2268,7 +2500,11 @@
                     "endOffset": 4484
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -2287,7 +2523,11 @@
                     "endOffset": 4621
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -2306,7 +2546,11 @@
                     "endOffset": 4808
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -2325,7 +2569,11 @@
                     "endOffset": 4907
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -2344,7 +2592,11 @@
                     "endOffset": 5003
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -2363,7 +2615,11 @@
                     "endOffset": 5116
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\development\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -2376,7 +2632,11 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\values-pt-rBR\\values-pt-rBR.xml",
+=======
+        "outputFile": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
         "map": [
             {
                 "to": {
@@ -2387,7 +2647,11 @@
                     "endOffset": 377
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2406,7 +2670,11 @@
                     "endOffset": 507
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2425,7 +2693,11 @@
                     "endOffset": 687
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -2444,7 +2716,11 @@
                     "endOffset": 816
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -2463,7 +2739,11 @@
                     "endOffset": 949
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -2482,7 +2762,11 @@
                     "endOffset": 1174
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -2501,7 +2785,11 @@
                     "endOffset": 1396
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -2520,7 +2808,11 @@
                     "endOffset": 1528
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -2539,7 +2831,11 @@
                     "endOffset": 1703
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -2558,7 +2854,11 @@
                     "endOffset": 1826
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -2577,7 +2877,11 @@
                     "endOffset": 2004
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -2596,7 +2900,11 @@
                     "endOffset": 2123
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -2615,7 +2923,11 @@
                     "endOffset": 2257
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -2634,7 +2946,11 @@
                     "endOffset": 2430
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -2653,7 +2969,11 @@
                     "endOffset": 2580
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -2672,7 +2992,11 @@
                     "endOffset": 2757
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -2691,7 +3015,11 @@
                     "endOffset": 2884
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -2710,7 +3038,11 @@
                     "endOffset": 3054
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -2729,7 +3061,11 @@
                     "endOffset": 3176
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -2748,7 +3084,11 @@
                     "endOffset": 3445
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\7a132ad59f8c43d080984bf0731039de678f8e6c\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2767,7 +3107,11 @@
                     "endOffset": 3714
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -2786,7 +3130,11 @@
                     "endOffset": 3831
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -2805,7 +3153,11 @@
                     "endOffset": 3941
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -2824,7 +3176,11 @@
                     "endOffset": 4136
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -2843,7 +3199,11 @@
                     "endOffset": 4268
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -2862,7 +3222,11 @@
                     "endOffset": 4484
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -2881,7 +3245,11 @@
                     "endOffset": 4621
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -2900,7 +3268,11 @@
                     "endOffset": 4808
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -2919,7 +3291,11 @@
                     "endOffset": 4907
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -2938,7 +3314,11 @@
                     "endOffset": 5003
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -2957,7 +3337,11 @@
                     "endOffset": 5116
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -2970,7 +3354,11 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+=======
+        "outputFile": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\res\\merged\\debug\\values-pt-rBR\\values-pt-rBR.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
         "map": [
             {
                 "to": {
@@ -2981,7 +3369,11 @@
                     "endOffset": 377
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -3000,7 +3392,11 @@
                     "endOffset": 507
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -3019,7 +3415,11 @@
                     "endOffset": 687
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -3038,7 +3438,11 @@
                     "endOffset": 816
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -3057,7 +3461,11 @@
                     "endOffset": 949
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -3076,7 +3484,11 @@
                     "endOffset": 1174
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -3095,7 +3507,11 @@
                     "endOffset": 1396
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -3114,7 +3530,11 @@
                     "endOffset": 1528
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -3133,7 +3553,11 @@
                     "endOffset": 1703
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -3152,7 +3576,11 @@
                     "endOffset": 1826
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -3171,7 +3599,11 @@
                     "endOffset": 2004
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -3190,7 +3622,11 @@
                     "endOffset": 2123
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -3209,7 +3645,11 @@
                     "endOffset": 2257
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -3228,7 +3668,11 @@
                     "endOffset": 2430
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -3247,7 +3691,11 @@
                     "endOffset": 2580
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -3266,7 +3714,11 @@
                     "endOffset": 2757
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -3285,7 +3737,11 @@
                     "endOffset": 2884
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -3304,7 +3760,11 @@
                     "endOffset": 3054
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -3323,7 +3783,11 @@
                     "endOffset": 3176
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -3342,7 +3806,11 @@
                     "endOffset": 3445
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\7a132ad59f8c43d080984bf0731039de678f8e6c\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -3361,7 +3829,11 @@
                     "endOffset": 3714
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -3380,7 +3852,11 @@
                     "endOffset": 3831
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -3399,7 +3875,11 @@
                     "endOffset": 3941
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -3418,7 +3898,11 @@
                     "endOffset": 4136
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -3437,7 +3921,11 @@
                     "endOffset": 4268
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -3456,7 +3944,11 @@
                     "endOffset": 4484
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -3475,7 +3967,11 @@
                     "endOffset": 4621
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -3494,7 +3990,11 @@
                     "endOffset": 4808
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -3513,7 +4013,11 @@
                     "endOffset": 4907
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -3532,7 +4036,11 @@
                     "endOffset": 5003
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -3551,7 +4059,605 @@
                     "endOffset": 5116
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\guilhermeboroni\\Documents\\workspace_studio\\sd\\UFS---SD\\ChattDemoMain\\C:\\Users\\guilhermeboroni\\.android\\build-cache\\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\\output\\res\\values-pt-rBR\\values.xml",
+=======
+                    "file": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/C:\\Users\\guilhermeboroni\\Desktop\\AndroidChattDemoFirebase\\ChattDemoMain\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values-pt-rBR\\values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 4961,
+                        "endColumn": 112,
+                        "endOffset": 5069
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/guilhermeboroni/Documents/workspace_studio/sd/UFS---SD/ChattDemoMain/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 276,
+                    "endOffset": 377
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 327,
+                        "endColumn": 276,
+                        "endOffset": 599
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 382,
+                    "endColumn": 129,
+                    "endOffset": 507
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 604,
+                        "endColumn": 129,
+                        "endOffset": 729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 512,
+                    "endColumn": 179,
+                    "endOffset": 687
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 734,
+                        "endColumn": 179,
+                        "endOffset": 909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 692,
+                    "endColumn": 128,
+                    "endOffset": 816
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 914,
+                        "endColumn": 128,
+                        "endOffset": 1038
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 821,
+                    "endColumn": 132,
+                    "endOffset": 949
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 1043,
+                        "endColumn": 132,
+                        "endOffset": 1171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 954,
+                    "endColumn": 224,
+                    "endOffset": 1174
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1176,
+                        "endColumn": 224,
+                        "endOffset": 1396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1179,
+                    "endColumn": 221,
+                    "endOffset": 1396
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1401,
+                        "endColumn": 221,
+                        "endOffset": 1618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1401,
+                    "endColumn": 131,
+                    "endOffset": 1528
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1623,
+                        "endColumn": 131,
+                        "endOffset": 1750
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1533,
+                    "endColumn": 174,
+                    "endOffset": 1703
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1755,
+                        "endColumn": 174,
+                        "endOffset": 1925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1708,
+                    "endColumn": 122,
+                    "endOffset": 1826
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1930,
+                        "endColumn": 122,
+                        "endOffset": 2048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1831,
+                    "endColumn": 177,
+                    "endOffset": 2004
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2053,
+                        "endColumn": 177,
+                        "endOffset": 2226
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 2009,
+                    "endColumn": 118,
+                    "endOffset": 2123
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2231,
+                        "endColumn": 118,
+                        "endOffset": 2345
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2128,
+                    "endColumn": 133,
+                    "endOffset": 2257
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2350,
+                        "endColumn": 133,
+                        "endOffset": 2479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2262,
+                    "endColumn": 172,
+                    "endOffset": 2430
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2484,
+                        "endColumn": 172,
+                        "endOffset": 2652
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2435,
+                    "endColumn": 149,
+                    "endOffset": 2580
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2657,
+                        "endColumn": 149,
+                        "endOffset": 2802
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2585,
+                    "endColumn": 176,
+                    "endOffset": 2757
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2807,
+                        "endColumn": 176,
+                        "endOffset": 2979
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2762,
+                    "endColumn": 126,
+                    "endOffset": 2884
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2984,
+                        "endColumn": 126,
+                        "endOffset": 3106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2889,
+                    "endColumn": 169,
+                    "endOffset": 3054
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3111,
+                        "endColumn": 169,
+                        "endOffset": 3276
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 3059,
+                    "endColumn": 121,
+                    "endOffset": 3176
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3281,
+                        "endColumn": 121,
+                        "endOffset": 3398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 3181,
+                    "endColumn": 268,
+                    "endOffset": 3445
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/8875064d38728c596c1c3772a709e74c663b2ac6/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 268,
+                        "endOffset": 593
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 3450,
+                    "endColumn": 268,
+                    "endOffset": 3714
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 3403,
+                        "endColumn": 268,
+                        "endOffset": 3667
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 3719,
+                    "endColumn": 116,
+                    "endOffset": 3831
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3672,
+                        "endColumn": 116,
+                        "endOffset": 3784
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 3836,
+                    "endColumn": 109,
+                    "endOffset": 3941
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 3789,
+                        "endColumn": 109,
+                        "endOffset": 3894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 3946,
+                    "endColumn": 194,
+                    "endOffset": 4136
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 3899,
+                        "endColumn": 194,
+                        "endOffset": 4089
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 4141,
+                    "endColumn": 131,
+                    "endOffset": 4268
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 4094,
+                        "endColumn": 131,
+                        "endOffset": 4221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 4273,
+                    "endColumn": 215,
+                    "endOffset": 4484
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 4226,
+                        "endColumn": 215,
+                        "endOffset": 4437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 4489,
+                    "endColumn": 136,
+                    "endOffset": 4621
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 4442,
+                        "endColumn": 136,
+                        "endOffset": 4574
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 4626,
+                    "endColumn": 186,
+                    "endOffset": 4808
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 4579,
+                        "endColumn": 186,
+                        "endOffset": 4761
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 4813,
+                    "endColumn": 98,
+                    "endOffset": 4907
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 4766,
+                        "endColumn": 98,
+                        "endOffset": 4860
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 4912,
+                    "endColumn": 95,
+                    "endOffset": 5003
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 4865,
+                        "endColumn": 95,
+                        "endOffset": 4956
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 5008,
+                    "endColumn": 112,
+                    "endOffset": 5116
+                },
+                "from": {
+                    "file": "/Users/guilhermeboroni/.android/build-cache/cd8f43dec0f4af8455c4a4b75440e24bb252bb27/output/res/values-pt-rBR/values.xml",
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,

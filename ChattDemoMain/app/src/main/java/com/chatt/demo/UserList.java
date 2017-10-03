@@ -35,7 +35,10 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+<<<<<<< HEAD
 import com.google.protobuf.InvalidProtocolBufferException;
+=======
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
@@ -44,11 +47,17 @@ import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
 import com.rabbitmq.client.QueueingConsumer;
 
+<<<<<<< HEAD
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.concurrent.TimeoutException;
+=======
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -94,14 +103,18 @@ public class UserList extends CustomActivity
             }
         };
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
         user = new ChatUser();
 		user.setEmail(Singleton.getInstance().getUser());
 		user.setId(Singleton.getInstance().getUser());
 		user.setUsername(Singleton.getInstance().getUser());
 		user.setOnline(true);
 
+<<<<<<< HEAD
 		try {
 			subscribe(incomingMessageHandler);
 		} catch (IOException e) {
@@ -110,6 +123,9 @@ public class UserList extends CustomActivity
 			e.printStackTrace();
 		}
 
+=======
+        subscribe(incomingMessageHandler);
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
 
 	}
 
@@ -288,6 +304,7 @@ public class UserList extends CustomActivity
 
 	}
 
+<<<<<<< HEAD
     void subscribe(final Handler handler) throws IOException, TimeoutException {
 		Consumer consumer = new DefaultConsumer(Singleton.getInstance().getChannel()) {
 			@Override
@@ -319,5 +336,44 @@ public class UserList extends CustomActivity
 		};
 		Singleton.getInstance().getChannel().basicConsume(Singleton.getInstance().getUser(), true, consumer);
     }
+=======
+	void subscribe(final Handler handler)
+	{
+		subscribeThread = new Thread(new Runnable() {
+			@Override
+			public void run() {
+				while(true) {
+					try {
+						Channel channel = Singleton.getInstance().getChannel();
+						AMQP.Queue.DeclareOk q = channel.queueDeclare();
+						Consumer consumer = new DefaultConsumer(channel) {
+							@Override
+							public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties,
+													   byte[] body)  {
+								String msg = new String(body);
+								Log.i("<<<<<<<<<",msg);
+								Message msgH = handler.obtainMessage();
+								Bundle bundle = new Bundle();
+								bundle.putString("msg", msg);
+								msgH.setData(bundle);
+								handler.sendMessage(msgH);
+							}
+						};
+						channel.basicConsume(q.getQueue(), true, consumer);
+
+					} catch (Exception e1) {
+						Log.d("", "Connection broken: " + e1.getClass().getName());
+						try {
+							Thread.sleep(5000); //sleep and then try again
+						} catch (InterruptedException e) {
+							break;
+						}
+					}
+				}
+			}
+		});
+		subscribeThread.start();
+	}
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
 
 }

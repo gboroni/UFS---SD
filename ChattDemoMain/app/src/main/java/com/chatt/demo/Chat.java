@@ -20,12 +20,29 @@ import android.widget.TextView;
 import com.chatt.demo.custom.CustomActivity;
 import com.chatt.demo.model.ChatUser;
 import com.chatt.demo.model.Conversation;
+<<<<<<< HEAD
 import com.chatt.demo.requests.SendMessageAsync;
 import com.chatt.demo.utils.Const;
 import com.chatt.demo.utils.Singleton;
 
 
 import java.io.IOException;
+=======
+import com.chatt.demo.protobuf.MessageProtos;
+import com.chatt.demo.utils.Const;
+import com.chatt.demo.utils.Singleton;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.google.protobuf.ByteString;
+import com.rabbitmq.client.Channel;
+
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.concurrent.TimeoutException;
@@ -145,6 +162,18 @@ public class Chat extends CustomActivity {
 
         sendMessageRabbit(s.toString());
 
+<<<<<<< HEAD
+=======
+        Conversation conversation = new Conversation();
+        conversation.setStatus(Conversation.STATUS_SENT);
+        conversation.setDate(new Date());
+        conversation.setMsg(txt.getText().toString());
+        conversation.setSender(Singleton.getInstance().getUser());
+        conversation.setReceiver(buddy.getUsername());
+
+        convList.add(conversation);
+
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
         adp.notifyDataSetChanged();
         txt.setText(null);
     }
@@ -234,6 +263,7 @@ public class Chat extends CustomActivity {
      *
      */
     public void sendMessageRabbit(String text) throws IOException, TimeoutException {
+<<<<<<< HEAD
         loginProgressDlg = ProgressDialog.show(this, null,
                 getString(R.string.alert_wait));
         new SendMessageAsync(loginProgressDlg,Chat.this, Chat.this).execute(buddy.getUsername(),text);
@@ -253,4 +283,68 @@ public class Chat extends CustomActivity {
     }
 
 
+=======
+        Channel channel = Singleton.getInstance().getConnection().createChannel();
+        // Protocolo da mensagem: grupo | usuário | conteúdo
+//        if (isGroup) {
+//            channel.exchangeDeclare(sendTo, "fanout");
+//            // channel.basicPublish(sendTo, "", null, (sendTo + SEPARATOR + user + SEPARATOR
+//            // + msg).getBytes("UTF-8"));
+//            channel.basicPublish(sendTo, "", null, makeMessage(user, msg, sendTo));
+//        } else {
+            channel.queueDeclare(buddy.getUsername(), false, false, false, null);
+            // channel.basicPublish("", sendTo, null, ("" + SEPARATOR + user + SEPARATOR +
+            // msg).getBytes("UTF-8"));
+            channel.basicPublish("", buddy.getUsername(), null, makeMessage(Singleton.getInstance().getUser(), text,""));
+//        }
+        channel.close();
+    }
+
+    /**
+     * Retorna os bytes da mensagem no formato protocol buffer.
+     *
+     * @param sender
+     *            Usuário que enviou a mensagem
+     * @param text
+     *            Conteúdo textual da mensagem
+     * @param group
+     *            Nome do grupo destinatário
+     * @return Mensagem serializada
+     */
+    private static byte[] makeMessage(String sender, String text, String group) {
+
+        MessageProtos.Message.Content.Builder data = MessageProtos.Message.Content.newBuilder().setData(ByteString.copyFromUtf8(text))
+                .setType(MessageProtos.Message.ContentType.TEXT);
+        MessageProtos.Message.Builder m = MessageProtos.Message.newBuilder().setSender(sender).setDate(getCurrentDate()).setTime(getCurrentTime())
+                .addContent(data);
+        if (!group.isEmpty()) {
+            m.setGroup(group);
+        }
+        return m.build().toByteArray();
+    }
+
+    /**
+     * Pega o dia atual
+     *
+     * @return strDate
+     */
+    public static String getCurrentDate() {
+        SimpleDateFormat sdfDate = new SimpleDateFormat("dd/MM/yyyy");
+        Date now = new Date();
+        String strDate = sdfDate.format(now);
+        return strDate;
+    }
+
+    /**
+     * Pega a Hora atual
+     *
+     * @return strTime
+     */
+    public static String getCurrentTime() {
+        SimpleDateFormat sdfDate = new SimpleDateFormat("HH:mm");
+        Date now = new Date();
+        String strTime = sdfDate.format(now);
+        return strTime;
+    }
+>>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
 }
