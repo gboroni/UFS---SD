@@ -1,11 +1,14 @@
 package com.chatt.demo.utils;
 
+import com.chatt.demo.model.ChatConversation;
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeoutException;
 
 /**
@@ -32,6 +35,8 @@ public class Singleton {
     private Channel channel;
 
     private String user;
+
+    private ArrayList<ChatConversation> listaConversas;
 
     public Connection getConnection() throws IOException, TimeoutException {
         if (connection == null){
@@ -77,5 +82,16 @@ public class Singleton {
         factory.setVirtualHost("ygqnbuox");
         Connection connection = factory.newConnection();
         return connection;
+    }
+
+    public ArrayList<ChatConversation> getListaConversas() {
+        if (listaConversas == null){
+            listaConversas = new ArrayList<ChatConversation>();
+        }
+        return listaConversas;
+    }
+
+    public void setListaConversas(ArrayList<ChatConversation> listaConversas) {
+        this.listaConversas = listaConversas;
     }
 }
