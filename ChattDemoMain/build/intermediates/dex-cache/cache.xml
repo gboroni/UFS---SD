@@ -2,6 +2,15 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\5d5910f1645dee131bcc1c987592ea1db6507f71\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\classes_47ed2632ac6af65d016d0e22bc7015182a6ebc0c.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\guilhermeboroni\Desktop\ChattDemoMain\app\libs\slf4j-simple-1.7.25.jar"
         jumboMode="true"
@@ -20,6 +29,42 @@
         <dex dex="C:\Users\guilhermeboroni\Desktop\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\2\slf4j-api-1.7.25_b7bbd583c6c74546f80b62b359fa1564b062c2a5\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\libs\protobuf-java-3.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b32aba0cbe737a4ca953f71688725972e3ee927c">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\protobuf-java-3.4.0_7ed62dc3cbc7fc5f50ae08ca20d44ccf470a468c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0_1778a025661b82fc2853dcd753f32782afafaf2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\a56e96bf55288f8c5b41e2d18a155846e278ea1d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\classes_e56b25a240c75b8a6e722da131f52961cb5904c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\85cee4c3fc0e7dddd27f8385f4da43630d6e8f5b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\classes_176f153894d0b7202bc903807abfb14488b43267.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\libs\slf4j-simple-1.7.25.jar"
         jumboMode="true"
@@ -29,13 +74,58 @@
         <dex dex="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\2\slf4j-simple-1.7.25_a376db754b5ce591ccfd735fa62a771e5af33c3e\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\libs\protobuf-java-3.4.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\libs\slf4j-api-1.7.25.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="b32aba0cbe737a4ca953f71688725972e3ee927c">
-        <dex dex="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\2\protobuf-java-3.4.0_8820baeb84bfcb7ded38838190b0e25e851cf728\classes.dex" />
+        sha1="da76ca59f6a57ee3102f8f9bd9cee742973efa8a">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\slf4j-api-1.7.25_1fbe6fd3b93eec105f3b4cea672af27695d591ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\c56b52c0b77c08b0d67f7993ea316e7b8762e545\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ef5c5c2afbd174d55cf1cfcac7d0346cbc4c1322">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\classes_8686b59436d4420e2751cf8c749103f617cb2aac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\7a132ad59f8c43d080984bf0731039de678f8e6c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\classes_6023c4d195c2a11a0efc8bb61edf9c49f3c87625.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\5c433ae7e5fbf46f7cb6fc4e5d355307ac8214c2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70ddab48594608953b20164b82f1f890a9a8174a">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\classes_e6b63a8e2c7d689409efacbec3a933ce915dec21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\9df86c8b9bebcf3bbf74fde8fded67acd33bf4b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\classes_d216ba90c18fac72ef1970c96092e0330bfce478.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\2fe070e4340a563a4523d632ada2677651d7f7e6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\classes_3baca4eb0705d9fdb727ba22f5ec527bf6ef51ee.jar" />
     </item>
     <item
         is-multidex="true"
@@ -72,6 +162,96 @@
         revision="25.0.0"
         sha1="a9d0aaf191bd2a6d227b06ee64b624939a9d59a2">
         <dex dex="C:\Users\guilhermeboroni\Desktop\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7dee0dea869d1f3abde6df7ad8e3427a9099ee6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\7ee8ee3774bacc9a401f781dd345c602ee51911d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="32a5a566ae197603d0bed3e6d1d275f6a771564e">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\classes_755512a9dbbf4e39f599c300da2e6b66ed870ef8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\a21731e1450478fd12de98ade835073d6b309c54\output\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_5d3796ab26cb6391a9fca4ecd4ccd51401579fb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.gradle\caches\modules-2\files-2.1\com.rabbitmq\amqp-client\3.6.6\6ee151677904052617a01971fdc37fff28ecb5ca\amqp-client-3.6.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ee151677904052617a01971fdc37fff28ecb5ca">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\amqp-client-3.6.6_9db93b1cb6162f28374a5d89f73ed239c2bfccfa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\c82a2f5e483c49fc5b0ff5f5a74811892db24d1a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\classes_476377bcf1aa87edb97e5ac279364a532febbeb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\c33f83cac78baae5fb3664a38dbddd163309c1d9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="24536a7b97926a9c155c88425da6875adeb11b51">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\classes_3e3fedd4001730924f3ce1404aef0c05cdcd8fb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\libs\slf4j-simple-1.7.25.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8dacf9514f0c707cbbcdd6fd699e8940d42fb54e">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\slf4j-simple-1.7.25_17c207a5920882cda55602605efce5386b97e6d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\a21731e1450478fd12de98ade835073d6b309c54\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\classes_55a66ce8b48d611ee94af94e5d080b35cafc9489.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\libs\protobuf-java-3.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b32aba0cbe737a4ca953f71688725972e3ee927c">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\AndroidChattDemoFirebase\ChattDemoMain\app\build\intermediates\transforms\dex\debug\folders\1000\2\protobuf-java-3.4.0_8820baeb84bfcb7ded38838190b0e25e851cf728\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\4be3c34b1f87a8b25b48cdd4e52ec08f149168fe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f0f6913a208a126269aaa68004ed0329a832c5b">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\classes_363806165d53e8f35a5c2590eba620efad440188.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\guilhermeboroni\.android\build-cache\eff72316de8b1532c48173061c97671d94bb530c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="005786793d72c6deacbbbfd38177ed58e1aa6653">
+        <dex dex="C:\Users\guilhermeboroni\Desktop\UFS---SD\ChattDemoMain\app\build\intermediates\pre-dexed\debug\classes_f6e198ae5b7d112ade561898adfd083e6bcd41f9.jar" />
     </item>
 
 </items>

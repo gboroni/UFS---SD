@@ -6,7 +6,7 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "com.chatt.demo"
+        applicationId "com.chatt.ufs"
         minSdkVersion 14
         targetSdkVersion 18
     }

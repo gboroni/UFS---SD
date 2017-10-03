@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 140
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 1572
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 1622
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -391,7 +391,7 @@
                     "endOffset": 1675
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -410,7 +410,7 @@
                     "endOffset": 1728
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -429,7 +429,7 @@
                     "endOffset": 1779
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -448,7 +448,7 @@
                     "endOffset": 1827
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -467,7 +467,7 @@
                     "endOffset": 1867
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -486,7 +486,7 @@
                     "endOffset": 1913
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -505,7 +505,7 @@
                     "endOffset": 2679
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 1,
@@ -524,7 +524,7 @@
                     "endOffset": 2719
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 1,
@@ -543,7 +543,7 @@
                     "endOffset": 2759
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 1,
@@ -562,7 +562,7 @@
                     "endOffset": 2799
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 1,
@@ -581,7 +581,7 @@
                     "endOffset": 2837
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 1,
@@ -600,7 +600,7 @@
                     "endOffset": 2882
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 1,
@@ -619,7 +619,7 @@
                     "endOffset": 2928
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 1,
@@ -638,7 +638,7 @@
                     "endOffset": 2968
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 1,
@@ -657,7 +657,7 @@
                     "endOffset": 3008
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 1,
@@ -676,7 +676,7 @@
                     "endOffset": 3048
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 1,
@@ -695,7 +695,7 @@
                     "endOffset": 3088
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 1,
@@ -714,7 +714,7 @@
                     "endOffset": 3128
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 1,
@@ -733,7 +733,7 @@
                     "endOffset": 3168
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 1,
@@ -752,7 +752,7 @@
                     "endOffset": 3208
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 1,
@@ -771,7 +771,7 @@
                     "endOffset": 3246
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 1,
@@ -809,7 +809,7 @@
                     "endOffset": 3366
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 0,
@@ -828,7 +828,7 @@
                     "endOffset": 3419
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -847,7 +847,7 @@
                     "endOffset": 3467
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -866,7 +866,7 @@
                     "endOffset": 3510
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1474,7 +1474,7 @@
                     "endOffset": 7921
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1493,7 +1493,7 @@
                     "endOffset": 7974
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -1512,7 +1512,7 @@
                     "endOffset": 8027
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1531,7 +1531,7 @@
                     "endOffset": 8074
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -1550,7 +1550,7 @@
                     "endOffset": 8119
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -1569,7 +1569,7 @@
                     "endOffset": 8157
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1588,7 +1588,7 @@
                     "endOffset": 8197
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1607,7 +1607,7 @@
                     "endOffset": 8263
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -1626,7 +1626,7 @@
                     "endOffset": 8329
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -1645,7 +1645,7 @@
                     "endOffset": 8397
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -1664,7 +1664,7 @@
                     "endOffset": 8471
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -1683,7 +1683,7 @@
                     "endOffset": 8518
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -1702,7 +1702,7 @@
                     "endOffset": 8632
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1721,7 +1721,7 @@
                     "endOffset": 8702
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1740,7 +1740,7 @@
                     "endOffset": 8784
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1759,7 +1759,7 @@
                     "endOffset": 8888
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1778,7 +1778,7 @@
                     "endOffset": 8991
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1797,7 +1797,7 @@
                     "endOffset": 9111
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1816,7 +1816,7 @@
                     "endOffset": 9214
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1835,7 +1835,7 @@
                     "endOffset": 9256
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1854,7 +1854,7 @@
                     "endOffset": 9327
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 0,
@@ -1873,7 +1873,7 @@
                     "endOffset": 9373
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1892,7 +1892,7 @@
                     "endOffset": 9419
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1911,7 +1911,7 @@
                     "endOffset": 9453
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1930,7 +1930,7 @@
                     "endOffset": 9499
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1949,7 +1949,7 @@
                     "endOffset": 9545
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1968,7 +1968,7 @@
                     "endOffset": 9587
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1987,7 +1987,7 @@
                     "endOffset": 9639
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -2006,7 +2006,7 @@
                     "endOffset": 9674
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -2025,7 +2025,7 @@
                     "endOffset": 9724
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2045,7 +2045,7 @@
                     "endOffset": 9817
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2066,7 +2066,7 @@
                     "endOffset": 9955
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2087,7 +2087,7 @@
                     "endOffset": 10132
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 6,
@@ -2108,7 +2108,7 @@
                     "endOffset": 10588
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
@@ -2129,7 +2129,7 @@
                     "endOffset": 10850
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 5,
@@ -2150,7 +2150,7 @@
                     "endOffset": 11382
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 5,
@@ -2171,7 +2171,7 @@
                     "endOffset": 11844
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
@@ -2192,7 +2192,7 @@
                     "endOffset": 12606
                 },
                 "from": {
-                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\guilhermeboroni\\Desktop\\UFS---SD\\ChattDemoMain\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
