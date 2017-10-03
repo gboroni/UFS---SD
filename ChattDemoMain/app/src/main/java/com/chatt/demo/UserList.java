@@ -29,37 +29,19 @@ import com.chatt.demo.protobuf.MessageProtos;
 import com.chatt.demo.utils.Const;
 import com.chatt.demo.utils.CustomAdapter;
 import com.chatt.demo.utils.Singleton;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
-<<<<<<< HEAD
-import com.google.protobuf.InvalidProtocolBufferException;
-=======
->>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
+
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.Consumer;
 import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
-import com.rabbitmq.client.QueueingConsumer;
 
-<<<<<<< HEAD
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.concurrent.TimeoutException;
-=======
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
->>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 
 /**
@@ -84,8 +66,7 @@ public class UserList extends CustomActivity
 	 * @see android.support.v4.app.FragmentActivity#onCreate(android.os.Bundle)
 	 */
 	@Override
-	protected void onCreate(Bundle savedInstanceState)
-	{
+	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.user_list);
 
@@ -93,28 +74,16 @@ public class UserList extends CustomActivity
 
 		updateUserStatus(true);
 
-        final Handler incomingMessageHandler = new Handler() {
-            @Override
-            public void handleMessage(Message msg) {
-                String message = msg.getData().getString("msg");
-                Date now = new Date();
-                SimpleDateFormat ft = new SimpleDateFormat ("hh:mm:ss");
-                Log.i("CHAT RECEBIDO >>> ",ft.format(now) + ' ' + message + '\n');
-            }
-        };
+		final Handler incomingMessageHandler = new Handler() {
+			@Override
+			public void handleMessage(Message msg) {
+				String message = msg.getData().getString("msg");
+				Date now = new Date();
+				SimpleDateFormat ft = new SimpleDateFormat("hh:mm:ss");
+				Log.i("CHAT RECEBIDO >>> ", ft.format(now) + ' ' + message + '\n');
+			}
+		};
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
-        user = new ChatUser();
-		user.setEmail(Singleton.getInstance().getUser());
-		user.setId(Singleton.getInstance().getUser());
-		user.setUsername(Singleton.getInstance().getUser());
-		user.setOnline(true);
-
-<<<<<<< HEAD
 		try {
 			subscribe(incomingMessageHandler);
 		} catch (IOException e) {
@@ -122,12 +91,8 @@ public class UserList extends CustomActivity
 		} catch (TimeoutException e) {
 			e.printStackTrace();
 		}
-
-=======
-        subscribe(incomingMessageHandler);
->>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
-
 	}
+
 
 	/* (non-Javadoc)
 	 * @see android.support.v4.app.FragmentActivity#onDestroy()
@@ -137,7 +102,7 @@ public class UserList extends CustomActivity
 	{
 		super.onDestroy();
 		updateUserStatus(false);
-        subscribeThread.interrupt();
+		subscribeThread.interrupt();
 
 	}
 
@@ -201,14 +166,14 @@ public class UserList extends CustomActivity
 	}
 	/**
 	 * Update user status.
-	 * 
+	 *
 	 * @param online
 	 *            true if user is online
 	 */
 	private void updateUserStatus(boolean online)
 	{
 		// TODO: Add user status updates
-    }
+	}
 
 	/**
 	 * Load list of users.
@@ -230,8 +195,8 @@ public class UserList extends CustomActivity
 //				uList.add(user);
 //		}
 
-        ListView list = (ListView) findViewById(R.id.list);
-        adapter = new CustomAdapter(UserList.this,android.R.layout.simple_list_item_1,uList);
+		ListView list = (ListView) findViewById(R.id.list);
+		adapter = new CustomAdapter(UserList.this,android.R.layout.simple_list_item_1,uList);
 		list.setAdapter(adapter);
 		list.setOnItemClickListener(new OnItemClickListener() {
 
@@ -304,76 +269,36 @@ public class UserList extends CustomActivity
 
 	}
 
-<<<<<<< HEAD
-    void subscribe(final Handler handler) throws IOException, TimeoutException {
-		Consumer consumer = new DefaultConsumer(Singleton.getInstance().getChannel()) {
-			@Override
-			public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties,
-									   byte[] body) throws IOException {
-				String msg = "";
+void subscribe(final Handler handler) throws IOException, TimeoutException {
+	Consumer consumer = new DefaultConsumer(Singleton.getInstance().getChannel()) {
+		@Override
+		public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties,
+								   byte[] body) throws IOException {
+			String msg = "";
 
-				MessageProtos.Message message = MessageProtos.Message.parseFrom(body);
-				String fromGroup = message.getGroup();
-				String fromUser = message.getSender();
-				String date = message.getDate();
-				String time = message.getTime();
-				msg = message.getContent(0).getData().toStringUtf8();
+			MessageProtos.Message message = MessageProtos.Message.parseFrom(body);
+			String fromGroup = message.getGroup();
+			String fromUser = message.getSender();
+			String date = message.getDate();
+			String time = message.getTime();
+			msg = message.getContent(0).getData().toStringUtf8();
 
-				if (fromGroup.equals("")) {
-					// Exibe a mensagem direta
+			if (fromGroup.equals("")) {
+				// Exibe a mensagem direta
+				System.out.println("");
+				System.out.println("(" + date + " Ã s " + time + ") " + fromUser + " diz: " + msg);
+			} else {
+				// Ã‰ uma mensagem de um grupo
+				if (!fromUser.equals(user)) {
+					// Exibe a mensagem se o emissor nÃ£o for o prÃ³prio usuÃ¡rio (previne o "eco")
 					System.out.println("");
-					System.out.println("(" + date + " Ã s " + time + ") " + fromUser + " diz: " + msg);
-				} else {
-					// Ã‰ uma mensagem de um grupo
-					if (!fromUser.equals(user)) {
-						// Exibe a mensagem se o emissor nÃ£o for o prÃ³prio usuÃ¡rio (previne o "eco")
-						System.out.println("");
-						System.out.println(fromUser + " (" + fromGroup + ") diz: " + msg);
-					}
-				}
-
-			}
-		};
-		Singleton.getInstance().getChannel().basicConsume(Singleton.getInstance().getUser(), true, consumer);
-    }
-=======
-	void subscribe(final Handler handler)
-	{
-		subscribeThread = new Thread(new Runnable() {
-			@Override
-			public void run() {
-				while(true) {
-					try {
-						Channel channel = Singleton.getInstance().getChannel();
-						AMQP.Queue.DeclareOk q = channel.queueDeclare();
-						Consumer consumer = new DefaultConsumer(channel) {
-							@Override
-							public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties,
-													   byte[] body)  {
-								String msg = new String(body);
-								Log.i("<<<<<<<<<",msg);
-								Message msgH = handler.obtainMessage();
-								Bundle bundle = new Bundle();
-								bundle.putString("msg", msg);
-								msgH.setData(bundle);
-								handler.sendMessage(msgH);
-							}
-						};
-						channel.basicConsume(q.getQueue(), true, consumer);
-
-					} catch (Exception e1) {
-						Log.d("", "Connection broken: " + e1.getClass().getName());
-						try {
-							Thread.sleep(5000); //sleep and then try again
-						} catch (InterruptedException e) {
-							break;
-						}
-					}
+					System.out.println(fromUser + " (" + fromGroup + ") diz: " + msg);
 				}
 			}
-		});
-		subscribeThread.start();
-	}
->>>>>>> a5c3cae9d949f77ef6884d9dffc8de5fd67f959e
+
+		}
+	};
+	Singleton.getInstance().getChannel().basicConsume(Singleton.getInstance().getUser(), true, consumer);
+}
 
 }
