@@ -11,6 +11,9 @@ import com.chatt.ufs.requests.createUserAsync;
 import com.chatt.ufs.utils.Singleton;
 import com.chatt.ufs.utils.Utils;
 
+import java.io.IOException;
+import java.util.concurrent.TimeoutException;
+
 
 /**
  * The Class Login is an Activity class that shows the login screen to users.
@@ -69,6 +72,7 @@ public class Login extends CustomActivity
 
 			Singleton.getInstance().setUser(user);
 			new createUserAsync(loginProgressDlg,Login.this).execute(user);
+
 
 		}
 	}

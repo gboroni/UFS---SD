@@ -48,6 +48,16 @@ public class createUserAsync  extends AsyncTask<String, Void, String>{
             dialog.dismiss();
         ctx.startActivity(new Intent(ctx, UserList.class));
 
+        try {
+//			if (!Singleton.getInstance().isRecebendoMsg())
+            Singleton.getInstance().subscribe();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (TimeoutException e) {
+            e.printStackTrace();
+        }
+
+
     }
 
 }

@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="897e43b5-8cd1-4ba7-bae0-4f703e2524b3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/UserList$4.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -18,15 +19,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/Chat$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/Chat$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/Chat$ChatAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/Chat$ChatAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/Chat.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/Chat.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/Login.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/UserList$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/UserList$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/UserList$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/UserList$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/UserList$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/UserList$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/UserList$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/UserList$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/UserList$UserAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/UserList$UserAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/UserList.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/UserList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/requests/createUserAsync.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/requests/createUserAsync.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/utils/Singleton.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/chatt/ufs/utils/Singleton.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_2095f13e720131b476a3e1aec80cf557d9cb7b3a.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_2095f13e720131b476a3e1aec80cf557d9cb7b3a.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
@@ -37,6 +38,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/Chat.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/Chat.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/Login.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/Login.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/UserList.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/UserList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/requests/createUserAsync.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/requests/createUserAsync.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/utils/Singleton.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/utils/Singleton.java" />
     </list>
     <ignored path="ChattDemoMain.iws" />
@@ -72,8 +74,31 @@
       <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+            <state relative-caret-position="130">
+              <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+              <folding>
+                <element signature="e#1616#1641#0" expanded="true" />
+                <element signature="e#1745#1775#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/utils/CustomAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createUserAsync.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/requests/createUserAsync.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,21 +117,11 @@
       <file leaf-file-name="Chat.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/Chat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="255" column="16" selection-start-line="255" selection-start-column="16" selection-end-line="255" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Conversation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/model/Conversation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+            <state relative-caret-position="100">
+              <caret line="282" column="58" selection-start-line="282" selection-start-column="58" selection-end-line="282" selection-end-column="58" />
               <folding>
-                <element signature="e#1296#1297#0" expanded="true" />
-                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#2765#2923#0" expanded="true" />
+                <element signature="e#2922#2923#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,63 +130,18 @@
       <file leaf-file-name="UserList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/UserList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="290" column="46" selection-start-line="290" selection-start-column="46" selection-end-line="290" selection-end-column="46" />
+            <state relative-caret-position="181">
+              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AMQConnection.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/3.6.6/1f6f531ac5764be89f66ead47b6e3e46f148cf12/amqp-client-3.6.6-sources.jar!/com/rabbitmq/client/impl/AMQConnection.java">
+      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/utils/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="488" column="0" selection-start-line="488" selection-start-column="0" selection-end-line="488" selection-end-column="0" />
-              <folding>
-                <element signature="e#19459#19460#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrictExceptionHandler.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/3.6.6/1f6f531ac5764be89f66ead47b6e3e46f148cf12/amqp-client-3.6.6-sources.jar!/com/rabbitmq/client/impl/StrictExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsumerDispatcher.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/3.6.6/1f6f531ac5764be89f66ead47b6e3e46f148cf12/amqp-client-3.6.6-sources.jar!/com/rabbitmq/client/impl/ConsumerDispatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-              <folding>
-                <element signature="e#5099#5717#0" expanded="true" />
-                <element signature="e#5716#5717#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsumerWorkService.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/3.6.6/1f6f531ac5764be89f66ead47b6e3e46f148cf12/amqp-client-3.6.6-sources.jar!/com/rabbitmq/client/impl/ConsumerWorkService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendMessageAsync.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/requests/SendMessageAsync.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="266">
+              <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2058,10 +2028,11 @@
         <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/chatt/demo/test/BuildConfig.java" />
         <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/chatt/ufs/test/BuildConfig.java" />
         <option value="$PROJECT_DIR$/app/google-services.json" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/Login.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/utils/Singleton.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/requests/SendMessageAsync.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/Login.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/requests/createUserAsync.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/UserList.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/utils/Singleton.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/Chat.java" />
       </list>
     </option>
@@ -2651,15 +2622,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/UserList.java</url>
-          <line>288</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2763,19 +2726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/utils/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-          <folding>
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
-            <element signature="e#2386#2387#0" expanded="true" />
-            <element signature="e#2421#2422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/model/ChatConversation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -2837,16 +2787,16 @@
         <state relative-caret-position="108">
           <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding>
-            <element signature="e#5099#5717#0" expanded="true" />
-            <element signature="e#5716#5717#0" expanded="true" />
+            <element signature="e#5099#5717#0" expanded="false" />
+            <element signature="e#5716#5717#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/Login.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/requests/createUserAsync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+        <state relative-caret-position="288">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2859,12 +2809,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/UserList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/3.6.6/1f6f531ac5764be89f66ead47b6e3e46f148cf12/amqp-client-3.6.6-sources.jar!/com/rabbitmq/client/impl/AMQConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="488" column="0" selection-start-line="488" selection-start-column="0" selection-end-line="488" selection-end-column="0" />
           <folding>
-            <element signature="e#19459#19460#0" expanded="true" />
+            <element signature="e#19459#19460#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2877,27 +2835,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/3.6.6/1f6f531ac5764be89f66ead47b6e3e46f148cf12/amqp-client-3.6.6-sources.jar!/com/rabbitmq/client/impl/ConsumerWorkService.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/3.6.6/1f6f531ac5764be89f66ead47b6e3e46f148cf12/amqp-client-3.6.6-sources.jar!/com/rabbitmq/client/impl/WorkPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        <state relative-caret-position="99">
+          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/UserList.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/3.6.6/1f6f531ac5764be89f66ead47b6e3e46f148cf12/amqp-client-3.6.6-sources.jar!/com/rabbitmq/client/impl/ConsumerWorkService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="290" column="46" selection-start-line="290" selection-start-column="46" selection-end-line="290" selection-end-column="46" />
+        <state relative-caret-position="158">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+          <folding>
+            <element signature="e#1616#1641#0" expanded="true" />
+            <element signature="e#1745#1775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/utils/CustomAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/utils/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chatt/ufs/Chat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="255" column="16" selection-start-line="255" selection-start-column="16" selection-end-line="255" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="100">
+          <caret line="282" column="58" selection-start-line="282" selection-start-column="58" selection-end-line="282" selection-end-column="58" />
+          <folding>
+            <element signature="e#2765#2923#0" expanded="true" />
+            <element signature="e#2922#2923#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

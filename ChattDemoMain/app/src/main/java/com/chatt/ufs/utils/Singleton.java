@@ -1,9 +1,14 @@
 package com.chatt.ufs.utils;
 
 import com.chatt.ufs.Chat;
+import com.chatt.ufs.protobuf.MessageProtos;
+import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
+import com.rabbitmq.client.Consumer;
+import com.rabbitmq.client.DefaultConsumer;
+import com.rabbitmq.client.Envelope;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
@@ -91,6 +96,42 @@ public class Singleton {
         this.recebendoMsg = recebendoMsg;
     }
 
+    public void subscribe() throws IOException, TimeoutException {
+        Consumer consumer = new DefaultConsumer(Singleton.getInstance().getChannel()) {
+            @Override
+            public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties,
+                                       byte[] body) throws IOException {
+                String msg = "";
+
+                MessageProtos.Message message = MessageProtos.Message.parseFrom(body);
+                String fromGroup = message.getGroup();
+                String fromUser = message.getSender();
+                String date = message.getDate();
+                String time = message.getTime();
+                msg = message.getContent(0).getData().toStringUtf8();
+
+                if (fromGroup.equals("")) {
+                    // Exibe a mensagem direta
+                    System.out.println("");
+                    Chat conversaAtual = Singleton.getInstance().conversaAtual;
+                    if (conversaAtual != null && conversaAtual.buddy.getUsername().equals(fromUser)){
+                        conversaAtual.updateListReceived(msg);
+                    }
+                    System.out.println("(" + date + " Ã s " + time + ") " + fromUser + " diz: " + msg);
+                } else {
+                    // Ã‰ uma mensagem de um grupo
+                    if (!fromUser.equals(user)) {
+                        // Exibe a mensagem se o emissor nÃ£o for o prÃ³prio usuÃ¡rio (previne o "eco")
+                        System.out.println("");
+                        System.out.println(fromUser + " (" + fromGroup + ") diz: " + msg);
+                    }
+                }
+
+            }
+        };
+        Singleton.getInstance().getChannel().basicConsume(Singleton.getInstance().getUser(), true, consumer);
+        Singleton.getInstance().setRecebendoMsg(true);
+    }
 
 }
 

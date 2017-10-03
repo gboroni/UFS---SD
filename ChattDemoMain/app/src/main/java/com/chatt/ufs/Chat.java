@@ -5,6 +5,8 @@ import android.app.ActionBar;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.text.InputType;
 import android.text.format.DateUtils;
 import android.view.MenuItem;
@@ -26,6 +28,7 @@ import com.chatt.ufs.utils.Singleton;
 
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.concurrent.TimeoutException;
@@ -65,6 +68,8 @@ public class Chat extends CustomActivity {
 
     private ProgressDialog loginProgressDlg;
 
+    public Handler incomingMessageHandler;
+
     /* (non-Javadoc)
      * @see android.support.v4.app.FragmentActivity#onCreate(android.os.Bundle)
      */
@@ -73,7 +78,7 @@ public class Chat extends CustomActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.chat);
 
-        Singleton.getInstance().conversaAtual = this;
+
         convList = new ArrayList<Conversation>();
         ListView list = (ListView) findViewById(R.id.list);
         adp = new ChatAdapter();
@@ -92,6 +97,17 @@ public class Chat extends CustomActivity {
         ActionBar actionBar = getActionBar();
         if(actionBar != null)
             actionBar.setTitle(buddy.getUsername());
+
+         incomingMessageHandler = new Handler() {
+            @Override
+            public void handleMessage(Message msg) {
+                adp.notifyDataSetChanged();
+            }
+        };
+
+        Singleton.getInstance().conversaAtual = this;
+
+
 
     }
 
@@ -250,6 +266,7 @@ public class Chat extends CustomActivity {
 
         convList.add(conversation);
 
+
         adp.notifyDataSetChanged();
     }
 
@@ -263,7 +280,7 @@ public class Chat extends CustomActivity {
 
         convList.add(conversation);
 
-        adp.notifyDataSetChanged();
+        incomingMessageHandler.sendMessage(new Message());
     }
 
     @Override

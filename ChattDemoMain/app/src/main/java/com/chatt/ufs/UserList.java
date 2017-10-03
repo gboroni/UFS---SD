@@ -83,14 +83,7 @@ public class UserList extends CustomActivity
 			}
 		};
 
-		try {
-			if (!Singleton.getInstance().isRecebendoMsg())
-				subscribe(incomingMessageHandler);
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (TimeoutException e) {
-			e.printStackTrace();
-		}
+
 	}
 
 
@@ -102,7 +95,7 @@ public class UserList extends CustomActivity
 	{
 		super.onDestroy();
 		updateUserStatus(false);
-		subscribeThread.interrupt();
+//		subscribeThread.interrupt();
 
 	}
 
@@ -269,41 +262,6 @@ public class UserList extends CustomActivity
 
 	}
 
-void subscribe(final Handler handler) throws IOException, TimeoutException {
-	Consumer consumer = new DefaultConsumer(Singleton.getInstance().getChannel()) {
-		@Override
-		public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties,
-								   byte[] body) throws IOException {
-			String msg = "";
 
-			MessageProtos.Message message = MessageProtos.Message.parseFrom(body);
-			String fromGroup = message.getGroup();
-			String fromUser = message.getSender();
-			String date = message.getDate();
-			String time = message.getTime();
-			msg = message.getContent(0).getData().toStringUtf8();
-
-			if (fromGroup.equals("")) {
-				// Exibe a mensagem direta
-				System.out.println("");
-                Chat conversaAtual = Singleton.getInstance().conversaAtual;
-                if (conversaAtual != null && conversaAtual.buddy.getUsername().equals(fromUser)){
-                    conversaAtual.updateListReceived(msg);
-                }
-				System.out.println("(" + date + " Ã s " + time + ") " + fromUser + " diz: " + msg);
-			} else {
-				// Ã‰ uma mensagem de um grupo
-				if (!fromUser.equals(user)) {
-					// Exibe a mensagem se o emissor nÃ£o for o prÃ³prio usuÃ¡rio (previne o "eco")
-					System.out.println("");
-					System.out.println(fromUser + " (" + fromGroup + ") diz: " + msg);
-				}
-			}
-
-		}
-	};
-	Singleton.getInstance().getChannel().basicConsume(Singleton.getInstance().getUser(), true, consumer);
-	Singleton.getInstance().setRecebendoMsg(true);
-}
 
 }
