@@ -82,7 +82,9 @@ public class Chat extends CustomActivity {
         setContentView(R.layout.chat);
 
 
-        convList = new ArrayList<Conversation>();
+        buddy = (ChatUser) getIntent().getSerializableExtra(Const.EXTRA_DATA);
+
+        convList = Singleton.getInstance().findConversa(buddy.getUsername());
         ListView list = (ListView) findViewById(R.id.list);
         adp = new ChatAdapter();
         list.setAdapter(adp);
@@ -94,8 +96,6 @@ public class Chat extends CustomActivity {
                 | InputType.TYPE_TEXT_FLAG_MULTI_LINE);
 
         setTouchNClick(R.id.btnSend);
-
-        buddy = (ChatUser) getIntent().getSerializableExtra(Const.EXTRA_DATA);
 
         ActionBar actionBar = getActionBar();
         if(actionBar != null)
@@ -276,7 +276,7 @@ public class Chat extends CustomActivity {
 
         convList.add(conversation);
 
-
+        Singleton.getInstance().salvarConversa(buddy.getUsername(),convList);
         adp.notifyDataSetChanged();
     }
 

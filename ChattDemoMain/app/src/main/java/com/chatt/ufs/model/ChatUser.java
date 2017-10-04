@@ -17,6 +17,8 @@ public class ChatUser implements Serializable {
     public Boolean online;
     public ArrayList<String> room;
 
+
+
     public ChatUser() {
         // Default constructor required for calls to DataSnapshot.getValue(User.class)
     }

@@ -172,10 +172,7 @@ public class UserList extends CustomActivity
 	 */
 	private void loadUserList()
 	{
-
-		if (uList == null || uList.size() == 0){
-			uList = Singleton.getInstance().getuList();
-		}
+		uList = Singleton.getInstance().getuList();
 
 
 

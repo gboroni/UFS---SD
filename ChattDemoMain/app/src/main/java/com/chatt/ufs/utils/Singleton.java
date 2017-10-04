@@ -2,7 +2,9 @@ package com.chatt.ufs.utils;
 
 import com.chatt.ufs.Chat;
 import com.chatt.ufs.UserList;
+import com.chatt.ufs.model.ChatConversation;
 import com.chatt.ufs.model.ChatUser;
+import com.chatt.ufs.model.Conversation;
 import com.chatt.ufs.protobuf.MessageProtos;
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
@@ -48,6 +50,8 @@ public class Singleton {
     public UserList userListAct;
 
     private ArrayList<ChatUser> uList;
+
+    private ArrayList<ChatConversation> uCList;
 
     public Connection getConnection() throws IOException, TimeoutException {
         if (connection == null){
@@ -166,6 +170,38 @@ public class Singleton {
         }
         getuList().add(new ChatUser("id",sender,"email",true, new ArrayList<String>()));
         return getuList().get(getuList().size()-1);
+    }
+
+    public void salvarConversa(String user, ArrayList<Conversation> convList){
+        for (ChatConversation c: getuCList()) {
+            if (c.getUser().equals(user)){
+                if (convList != null) {
+                    c.setConvList(new ArrayList<Conversation>(convList));
+                    return;
+                }
+            }
+        }
+        ChatConversation c = new ChatConversation(new ArrayList<Conversation>(convList),user);
+        Singleton.getInstance().getuCList().add(c);
+    }
+
+    public ArrayList<Conversation> findConversa(String user){
+        for (ChatConversation c: getuCList()) {
+            if (c.getUser().equals(user)){
+                return c.getConvList();
+            }
+        }
+        return new  ArrayList<Conversation>();
+    }
+
+    public ArrayList<ChatConversation> getuCList() {
+        if (uCList == null)
+            uCList = new ArrayList<ChatConversation>();
+        return uCList;
+    }
+
+    public void setuCList(ArrayList<ChatConversation> uCList) {
+        this.uCList = uCList;
     }
 }
 

@@ -18,6 +18,8 @@ public class ChatConversation {
     }
 
     public ArrayList<Conversation> getConvList() {
+        if (convList == null)
+            convList = new ArrayList<Conversation>();
         return convList;
     }
 
