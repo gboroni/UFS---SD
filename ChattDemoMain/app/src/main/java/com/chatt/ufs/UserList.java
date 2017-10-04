@@ -55,8 +55,7 @@ public class UserList extends CustomActivity
 
 	public ArrayAdapter<ChatUser> adapter;
 
-	Thread subscribeThread;
-	Thread publishThread;
+	public Handler incomingMessageHandler;
 
 	/* (non-Javadoc)
 	 * @see android.support.v4.app.FragmentActivity#onCreate(android.os.Bundle)
@@ -73,16 +72,15 @@ public class UserList extends CustomActivity
         user.setId(Singleton.getInstance().getUser());
         user.setEmail(Singleton.getInstance().getUser());;
 
-		final Handler incomingMessageHandler = new Handler() {
+		incomingMessageHandler = new Handler() {
 			@Override
 			public void handleMessage(Message msg) {
-				String message = msg.getData().getString("msg");
-				Date now = new Date();
-				SimpleDateFormat ft = new SimpleDateFormat("hh:mm:ss");
-				Log.i("CHAT RECEBIDO >>> ", ft.format(now) + ' ' + message + '\n');
+				uList = Singleton.getInstance().getuList();
+				adapter.notifyDataSetChanged();
 			}
 		};
 
+		Singleton.getInstance().userListAct = this;
 
 	}
 
@@ -150,6 +148,7 @@ public class UserList extends CustomActivity
 			public void onClick(View v) {
 				uList.add(new ChatUser("id",userName.getText().toString(),"email",true, new ArrayList<String>()));
 				adapter.notifyDataSetChanged();
+				Singleton.getInstance().setuList(uList);
 				alertDialog.dismiss();
 			}
 		});
@@ -173,20 +172,12 @@ public class UserList extends CustomActivity
 	 */
 	private void loadUserList()
 	{
-//		final ProgressDialog dia = ProgressDialog.show(this, null,
-//				getString(R.string.alert_loading));
 
-//		Toast.makeText(UserList.this,
-//				R.string.msg_no_user_found,
-//				Toast.LENGTH_SHORT).show();
+		if (uList == null || uList.size() == 0){
+			uList = Singleton.getInstance().getuList();
+		}
 
-		uList = new ArrayList<ChatUser>();
-//		for(DataSnapshot ds : dataSnapshot.getChildren()) {
-//			ChatUser user = ds.getValue(ChatUser.class);
-//			Logger.getLogger(UserList.class.getName()).log(Level.ALL,user.getUsername());
-//			if(!user.getId().contentEquals(FirebaseAuth.getInstance().getCurrentUser().getUid()))
-//				uList.add(user);
-//		}
+
 
 		ListView list = (ListView) findViewById(R.id.list);
 		adapter = new CustomAdapter(UserList.this,android.R.layout.simple_list_item_1,uList);
@@ -202,9 +193,10 @@ public class UserList extends CustomActivity
 						Const.EXTRA_DATA,  uList.get(pos)));
 			}
 		});
+	}
 
-
-
+	public void updateList(){
+		incomingMessageHandler.sendMessage(new Message());
 	}
 
 	/**

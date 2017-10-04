@@ -1,6 +1,8 @@
 package com.chatt.ufs.utils;
 
 import com.chatt.ufs.Chat;
+import com.chatt.ufs.UserList;
+import com.chatt.ufs.model.ChatUser;
 import com.chatt.ufs.protobuf.MessageProtos;
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
@@ -11,6 +13,7 @@ import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.concurrent.TimeoutException;
 
 /**
@@ -41,6 +44,10 @@ public class Singleton {
     private boolean recebendoMsg = false;
 
     public Chat conversaAtual;
+
+    public UserList userListAct;
+
+    private ArrayList<ChatUser> uList;
 
     public Connection getConnection() throws IOException, TimeoutException {
         if (connection == null){
@@ -116,6 +123,12 @@ public class Singleton {
                     Chat conversaAtual = Singleton.getInstance().conversaAtual;
                     if (conversaAtual != null && conversaAtual.buddy.getUsername().equals(fromUser)){
                         conversaAtual.updateListReceived(msg);
+                    }else if (conversaAtual != null){
+                        conversaAtual.newMessageAlert(fromUser);
+//                        conversaAtual.finish();
+                    }else {
+                        addUlist(fromUser);
+                        userListAct.updateList();
                     }
                     System.out.println("(" + date + " Ã s " + time + ") " + fromUser + " diz: " + msg);
                 } else {
@@ -133,5 +146,26 @@ public class Singleton {
         Singleton.getInstance().setRecebendoMsg(true);
     }
 
+    public ArrayList<ChatUser> getuList() {
+        if (uList == null){
+            uList = new ArrayList<ChatUser>();
+        }
+        return uList;
+    }
+
+    public void setuList(ArrayList<ChatUser> uList) {
+        this.uList = uList;
+    }
+
+    public ChatUser addUlist(String sender){
+        int cont = 0;
+        for (ChatUser c: getuList()) {
+            if (c.getUsername().equals(sender)){
+                   return c;
+            }
+        }
+        getuList().add(new ChatUser("id",sender,"email",true, new ArrayList<String>()));
+        return getuList().get(getuList().size()-1);
+    }
 }
 

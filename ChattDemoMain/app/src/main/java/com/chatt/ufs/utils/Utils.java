@@ -4,8 +4,12 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+
+import com.chatt.ufs.Chat;
+import com.chatt.ufs.UserList;
 
 import java.util.Iterator;
 
@@ -44,6 +48,36 @@ public class Utils
 				.setPositiveButton(btn1, listener1);
 		if (btn2 != null && listener2 != null)
 			builder.setNegativeButton(btn2, listener2);
+
+		AlertDialog alert = builder.create();
+		alert.show();
+		return alert;
+
+	}
+
+	/**
+	 * Show dialog.
+	 *
+	 * @param ctx
+	 *            the ctx
+	 * @return the alert dialog
+	 */
+	public static AlertDialog showDialogNovaMensagem(final Context ctx, final String sender)
+	{
+
+		AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
+		// builder.setTitle(R.string.app_name);
+		builder.setMessage("Você tem uma nova mensagem de: "+ sender).setCancelable(false);
+
+		builder.setPositiveButton("Visualizar", new DialogInterface.OnClickListener() {
+			public void onClick(DialogInterface dialog, int which) {
+                ctx.startActivity(new Intent(ctx,
+                        Chat.class).putExtra(
+                        Const.EXTRA_DATA,  Singleton.getInstance().addUlist(sender)));
+			}
+		});
+
+		builder.setNegativeButton("Cancelar", null);
 
 		AlertDialog alert = builder.create();
 		alert.show();

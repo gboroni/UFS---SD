@@ -25,6 +25,7 @@ import com.chatt.ufs.model.Conversation;
 import com.chatt.ufs.requests.SendMessageAsync;
 import com.chatt.ufs.utils.Const;
 import com.chatt.ufs.utils.Singleton;
+import com.chatt.ufs.utils.Utils;
 
 
 import java.io.IOException;
@@ -70,6 +71,8 @@ public class Chat extends CustomActivity {
 
     public Handler incomingMessageHandler;
 
+    public Handler incomingNewMessageHandler;
+
     /* (non-Javadoc)
      * @see android.support.v4.app.FragmentActivity#onCreate(android.os.Bundle)
      */
@@ -102,6 +105,13 @@ public class Chat extends CustomActivity {
             @Override
             public void handleMessage(Message msg) {
                 adp.notifyDataSetChanged();
+            }
+        };
+
+        incomingNewMessageHandler = new Handler() {
+            @Override
+            public void handleMessage(Message msg) {
+                Utils.showDialogNovaMensagem(Chat.this,msg.getData().getString("sender"));
             }
         };
 
@@ -281,6 +291,14 @@ public class Chat extends CustomActivity {
         convList.add(conversation);
 
         incomingMessageHandler.sendMessage(new Message());
+    }
+
+    public void newMessageAlert(String sender){
+        Message m = new Message();
+        Bundle b = new Bundle();
+        b.putString("sender", sender); // for example
+        m.setData(b);
+        incomingNewMessageHandler.sendMessage(m);
     }
 
     @Override
