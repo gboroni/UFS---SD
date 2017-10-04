@@ -16,6 +16,7 @@ import com.rabbitmq.client.Envelope;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.concurrent.TimeoutException;
 
 /**
@@ -128,10 +129,33 @@ public class Singleton {
                     if (conversaAtual != null && conversaAtual.buddy.getUsername().equals(fromUser)){
                         conversaAtual.updateListReceived(msg);
                     }else if (conversaAtual != null){
+                        Conversation conversation = new Conversation();
+                        conversation.setStatus(Conversation.STATUS_SENT);
+                        conversation.setDate(new Date());
+                        conversation.setMsg(msg);
+                        conversation.setSender(fromUser);
+                        conversation.setReceiver(Singleton.getInstance().getUser());
+
+                        addUlist(fromUser);
+                        ArrayList<Conversation> ac =  Singleton.getInstance().findConversa(fromUser);
+                        ac.add(conversation);
+                        salvarConversa(fromUser,ac);
+
                         conversaAtual.newMessageAlert(fromUser);
 //                        conversaAtual.finish();
                     }else {
+                        Conversation conversation = new Conversation();
+                        conversation.setStatus(Conversation.STATUS_SENT);
+                        conversation.setDate(new Date());
+                        conversation.setMsg(msg);
+                        conversation.setSender(fromUser);
+                        conversation.setReceiver(Singleton.getInstance().getUser());
+
                         addUlist(fromUser);
+                        ArrayList<Conversation> ac =  Singleton.getInstance().findConversa(fromUser);
+                        ac.add(conversation);
+                        salvarConversa(fromUser,ac);
+
                         userListAct.updateList();
                     }
                     System.out.println("(" + date + " Ã s " + time + ") " + fromUser + " diz: " + msg);
