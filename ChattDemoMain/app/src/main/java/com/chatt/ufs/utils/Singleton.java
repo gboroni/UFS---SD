@@ -54,13 +54,17 @@ public class Singleton {
 
     private ArrayList<ChatConversation> uCList;
 
+    public static final String HOST = "34.214.209.137"; // "rhino.rmq.cloudamqp.com"
+    public static final String USER = "kirk"; // "ygqnbuox"
+    public static final String PASS = "senha123"; // "fhT5SRBYpG700pSZ3NcoyVeEj8RdosAx"
+
     public Connection getConnection() throws IOException, TimeoutException {
         if (connection == null){
             ConnectionFactory factory = new ConnectionFactory();
-            factory.setHost("rhino.rmq.cloudamqp.com");
-            factory.setUsername("ygqnbuox");
-            factory.setPassword("fhT5SRBYpG700pSZ3NcoyVeEj8RdosAx");
-            factory.setVirtualHost("ygqnbuox");
+            factory.setHost(HOST);
+            factory.setUsername(USER);
+            factory.setPassword(PASS);
+//            factory.setVirtualHost("ygqnbuox");
             connection = factory.newConnection();
         }
         return connection;
@@ -92,10 +96,10 @@ public class Singleton {
 
     public Connection newConnection() throws IOException, TimeoutException {
         ConnectionFactory factory = new ConnectionFactory();
-        factory.setHost("rhino.rmq.cloudamqp.com");
-        factory.setUsername("ygqnbuox");
-        factory.setPassword("fhT5SRBYpG700pSZ3NcoyVeEj8RdosAx");
-        factory.setVirtualHost("ygqnbuox");
+        factory.setHost(HOST);
+        factory.setUsername(USER);
+        factory.setPassword(PASS);
+//        factory.setVirtualHost("ygqnbuox");
         Connection connection = factory.newConnection();
         return connection;
     }

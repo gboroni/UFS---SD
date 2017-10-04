@@ -8,7 +8,7 @@
 <string name="drawer_close">Close</string>
     
     <string name="or">or</string>
-    <string name="email">Email</string>
+    <string name="email">Usuario</string>
     <string name="displayName">Display Name</string>
     <string name="password">Password</string>
     <string name="register">Register</string>
@@ -27,7 +27,7 @@
     <string name="err_users">Error occurred while finding users:</string>
 <string name="alert_loading">Loading...</string>
 <string name="msg_no_user_found">No users found for chat!</string>
-    <string name="delivered_text">Delivered</string>
-    <string name="sending_text">Sending...</string>
+    <string name="delivered_text">Entregue</string>
+    <string name="sending_text">Enviando...</string>
     <string name="failed_text">Failed</string>
 </resources>
