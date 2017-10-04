@@ -3,6 +3,7 @@ package com.chatt.ufs;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.view.View;
 import android.widget.EditText;
 
@@ -38,6 +39,14 @@ public class Login extends CustomActivity
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.login);
+
+        StrictMode.ThreadPolicy tp = StrictMode.ThreadPolicy.LAX;
+        StrictMode.setThreadPolicy(tp);
+
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
+
+
 
 		setTouchNClick(R.id.btnLogin);
 		setTouchNClick(R.id.btnReg);
